@@ -1,0 +1,11 @@
+/vendor
+.idea
+/idea/
+node_modules/
+dist/
+dist.zip
+.vscode/
+package-lock.json
+.babelrc
+/.babelrc
+.DS_Store
