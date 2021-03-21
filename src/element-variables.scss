@@ -3,7 +3,7 @@ Write your variables here. All available variables can be
 found in element-ui/packages/theme-chalk/src/common/var.scss.
 For example, to overwrite the theme color:
 */
-$--color-primary: #ee6b03;
+$--color-primary: #0071E3;
 
 /* icon font path, required */
 $--font-path: '~element-ui/lib/theme-chalk/fonts';
@@ -27,10 +27,10 @@ body,html{
 }
 body{
     background: #f8f8f8;
-    font-family: '微软雅黑', 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'PingFang SC', 'PingFangSC-Regular', 'Avenir', Helvetica, Arial, sans-serif;
 }
 a,input,textarea,select{
-    font-family: "Microsoft YaHei";
+    font-family: "PingFangSC-Regular";
     outline: none;
     text-decoration: none;
 }
@@ -44,48 +44,132 @@ li{
     padding: 0 10px;
 }
 
-// 搜索及banner---start
-.company-banner{
-position: relative;
-text-align: center;
-padding-bottom: 30px;
-img{
-    max-width: 100%;
+#app{
+    min-width: 1200px;
+    overflow: hidden;
 }
-.com-search{
-    height: 80px;
-    padding: 10px;
-    width: 1180px;
-    background: #ffffff;
-    border-radius: 8px;
-    box-shadow:5px 5px 5px rgba(0,0,0,.35);
-    position: absolute;
-    left: 50%;
-    bottom: -5px;
-    margin-left: -590px;
-    input{
-    background: #ededed;
-    height: 60px;
-    font-size: 24px;
-    color: #cacaca;
-    }
-    .com-search-btn{
-    position: absolute;
-    right: 30px;
-    bottom: 50%;
-    margin-bottom: -12px;
-    cursor: pointer;
-    }
-}
-}
-@media screen and (max-width: 750px) {
-    .com-search{
-        left: 0!important;
-        margin-left: 0!important;
-    }
-}
-// 搜索及banner----end
 
-.vue-directive-image-previewer{
-    z-index: 1000!important;
+.tit{
+    font-size: 58px;
+    font-weight: 600;
+    color: #000000;
+}
+p.subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0071E3;
+}
+p.con{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+    line-height: 38px;
+}
+
+// header  导航
+.cs-header{
+    background: #000;
+    width: 100%;
+    height: 110px;
+    .container{
+        height: 100%;
+        position: relative;
+        .LanguageSelection{
+            line-height: 110px;
+            position: absolute;
+            right: -100px;
+            top: 0;
+            font-size: 20px;
+            font-weight: 400;
+            color: #A4A4A4;
+            .hover{
+                color: #FFFFFF;
+            }
+            .interval{
+                padding: 0 10px;
+            }
+        }
+    }
+    .logo,.dealers{
+        height: 110px;
+        display: table-cell;
+        vertical-align: middle;
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .dealers{
+        text-align: right;
+    }
+    // .el-row,.el-col{
+    //     height: 100%;
+    // }
+    .pcMenu{
+        margin-top: 22px;
+        font-size: 20px;
+        width: 572px;
+        font-weight: 400;
+        .el-menu{
+            background: #000;
+            border-bottom: none;
+        }
+        .el-menu--horizontal > .el-menu-item{
+            height: 60px;
+            line-height: 60px;
+            font-size: 20px;
+            color: #FFFFFF;
+            padding: 0 10px;
+            &:focus{
+                background: none;
+            }
+        }
+        .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
+        .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus{
+            background: none;
+            // font-weight: bold;
+        }
+        .el-menu--horizontal > .el-menu-item.is-active{
+            border-bottom: 1px solid #FFFFFF;
+        }
+        
+    }
+}
+
+// footer 底部
+.cf-footer{
+    height: 330px;
+    background: #F5F5F7;
+    text-align: center;
+    color: #333333;
+    .foot-con1{
+        height: 270px;
+        border-bottom: 1px solid #D6D6D6;
+    }
+    .middle-img{
+        height: 270px;
+        display: table-cell;
+        vertical-align: middle;
+        img{
+            max-width: 100%;
+            max-height: 100%;
+        }
+    }
+    .foot-logo{
+        .foot-logo-item{
+            height: 270px;
+            display: table-cell;
+            vertical-align: middle;
+            &:first-child{
+                padding-right: 60px;
+            }
+        }
+    }
+    p.Copyright{
+        height: 59px;
+        line-height: 59px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #333333;
+    }
 }

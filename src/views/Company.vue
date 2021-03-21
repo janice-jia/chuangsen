@@ -1,21 +1,20 @@
 <template>
   <div class="company">
     <div class="company-banner">
-      <HeaderMenu activeIndex="2"></HeaderMenu>
-      <img src="../assets/img/company1.jpeg" alt=""/>
+      <!-- <img src="../assets/img/company1.jpeg" alt=""/> -->
       <div class="com-search container">
         <el-input
           placeholder="请输入邮轮公司名称"
           v-model="searchVal">
         </el-input>
-        <img class="com-search-btn" @click="getList('1')" src="../assets/img/header/search.png" alt="">
+        <!-- <img class="com-search-btn" @click="getList('1')" src="../assets/img/header/search.png" alt=""> -->
       </div>
     </div>
     <div class="container">
 
       <!-- 搜索内容为空 -->
       <div class="kong" v-if="list.length===0">
-        <img src="../assets/img/kong.svg" alt="">
+        <!-- <img src="../assets/img/kong.svg" alt=""> -->
         <p v-if="searchVal">
           您搜索的"{{searchVal}}"暂无内容
         </p>
@@ -71,11 +70,9 @@
   </div>
 </template>
 <script>
-import HeaderMenu from '../components/HeaderMenu.vue'
 export default {
   name:'Company',
   components: {
-    HeaderMenu
   },
   data() {
     return {

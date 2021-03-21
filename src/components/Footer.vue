@@ -1,15 +1,29 @@
 <template>
-  <div class="Footer">
+  <div class="cf-footer">
     <div class="container">
-      <p>法嘉华旅行 www.opvoyage.com</p>
-      <p>
-        <span>地址：84 Avenue de Choisy,75013Paris（法国巴黎Choisy大街84号）</span>
-        <span>预订热线：+330143468231</span>
-        <span>信箱：contact@opvoyage.com</span>
-      </p>
-      <p>
-        <span>Copyright</span>
-        <span>2007-2018,All Rights Reserve 网站建设</span>
+       <el-row type="flex" justify="space-between" class="foot-con1">
+        <el-col :span="10">
+          <div class="middle-img">
+            <img class="logo" src="../assets/foot_logo.png" alt="">
+          </div>
+        </el-col>
+        <el-col :span="8">
+          <el-row type="flex" justify="end">
+            <div class="foot-logo">
+              <div class="foot-logo-item">
+                <img class="logo" src="../assets/foot_WeChat_App.jpg" alt="">
+                <p>微信扫一扫<br/>享受教育价</p>
+              </div>
+              <div class="foot-logo-item">
+                <img class="logo" src="../assets/foot_WeChat.jpg" alt="">
+                <p>微信扫一扫<br/>关注公众号</p>
+              </div>
+            </div>
+          </el-row>
+        </el-col>
+       </el-row>
+      <p class="Copyright">
+        <span>Copyright © 2021 xxxxxxxx. 保留所有权利。</span>
       </p>
     </div>
   </div>
@@ -20,15 +34,3 @@ export default {
   name: 'Footer'
 }
 </script>
-<style lang="scss">
-.Footer{
-  margin-top: 100px;
-  background: #ebebeb;
-  text-align: center;
-  color: #333333;
-  padding: 50px 0;
-  p{
-    line-height: 24px;
-  }
-}
-</style>

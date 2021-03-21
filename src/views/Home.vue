@@ -1,106 +1,168 @@
 <template>
-  <div class="home">
-    <Banner :lineList="navDataPP"></Banner>
-    <!-- 邮轮品牌 -->
-    <HeadModuleTit class="container" tit="邮轮品牌" enTit="Cruise brand"/>
-    <HeadModulePPTab :navData="navDataPP"  moreName="更多邮轮公司" moreLink="company"></HeadModulePPTab>
-    
-    <!-- 邮轮百科 -->
-    <HeadModuleTit class="container" tit="邮轮百科" enTit="Cruise encyclopedia"/>
-    <HeadModuleBKTab :navData="navDataBK" moreName="更多百科内容" moreLink="bkcruise"></HeadModuleBKTab>
-
-    <!-- 港口城市 -->
-    <HeadModuleTit class="container" tit="港口城市" enTit="The port city of"/>
-    <HeadModuleCHTab :navData="navDataGK" moreName="更多港口城市" moreLink="gkcity"></HeadModuleCHTab>
-
-    <!-- 邮轮游记 -->
-    <HeadModuleTit class="container" tit="邮轮游记" enTit="Cruise travel"/>
-    <HeadModuleYJTab :navData="navDataYJ" moreName="更多游记内容" moreLink="comingSoon"></HeadModuleYJTab>
+  <div class="cs-home">
+    <!-- Apple 与教育 -->
+    <div class="cs-home-part1">
+      <div class="container">
+        <div class="tit">Apple 与教育。</div>
+        <div class="cs-home-con">
+          <p class="subtitle">“教育是深深根植于苹果的 DNA。” </p>
+          <p class="con">Apple 致力于打造高科技与创造力的教育生态系统，通过功能强大的硬件产品与精彩纷呈的 APP 软件以及丰富多样的学习资源，将科技创新带进课堂，为学校、老师、家长和学生，提供高效全面的教学服务。</p>
+          <p class="con">创森智云作为 Apple 授权的教育行业经销商，携手 Apple 为我国各类中小学校、高等院校提供客制化的教育解决方案和全生命周期服务。</p>
+        </div>
+      </div>
+    </div>
+    <!-- 基础教育，，高等教育 -->
+    <div class="cs-home-part2">
+      <div class="container">
+        <el-row type="flex" justify="space-between" :gutter="60">
+          <el-col :span="12">
+            <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+              <img src="../assets/img/cs-home-2.jpg" class="image">
+              <div class="img-tit">
+                <span class="tit">汉口学院苹果体验店</span>
+                <div class="bottom clearfix">
+                  <el-button type="text" class="button">进一步了解</el-button>
+                </div>
+              </div>
+            </el-card>
+          </el-col>
+          <el-col :span="12">
+            <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+              <img src="../assets/img/cs-home-3.jpg" class="image">
+              <div class="img-tit">
+                <span class="tit">高等教育</span>
+                <div class="bottom clearfix">
+                  <el-button type="text" class="button">进一步了解</el-button>
+                </div>
+              </div>
+            </el-card>
+          </el-col>
+        </el-row>
+      </div>
+    </div>
+  
+    <!-- 即刻登入 -->
+    <div class="cs-home-part3">
+        <div class="container">
+          <div class="con">
+            <div class="tit">即刻登入，享受校园优惠</div>
+            <div class="button">
+              <a href="">开始选购 
+                <span class="el-icon-arrow-right"></span>
+              </a>
+            </div>
+            <img src="../assets/img/cs-home-4.png" alt="">
+          </div>
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
-import Banner from '../components/Banner.vue'
-// 模块名称
-import HeadModuleTit from '../components/HeadModuleTit.vue'
-// 品牌
-import HeadModulePPTab from '../components/HeadModulePPTab.vue'
-// 百科
-import HeadModuleBKTab from '../components/HeadModuleBKTab.vue'
-// 港口城市
-import HeadModuleCHTab from '../components/HeadModuleCHTab.vue'
-// 游记
-import HeadModuleYJTab from '../components/HeadModuleYJTab.vue'
-let Base64 = require('js-base64').Base64
-
 export default {
   name: 'home',
   data() {
     return {
-      navDataPP: [],
-      navDataBK:[],
-      navDataGK: [],
-      navDataYJ:[],
     }
   },
   mounted(){
-    this.getPPnav()
-    this.getBKYJnav(1)
-    this.getBKYJnav(2)
-    this.getGKnav()
   },
   components: {
-    Banner,
-    HeadModuleTit,
-    HeadModulePPTab,
-    HeadModuleBKTab,
-    HeadModuleCHTab,
-    HeadModuleYJTab
   },
   methods: {
-    // 邮轮品牌
-    getPPnav(){
-      this.$http.get('/API/index.ashx?command=GetShipCompany').then(function (res) {
-        res.body = this.formatterNavVal(res.body, 'shipcompany')
-        this.navDataPP = res.body
-      })
-    },
-    //港口城市
-    getGKnav(){
-      this.$http.get('/API/index.ashx?command=GetAreaCity').then(function (res) {
-        res.body.list = this.formatterNavVal(res.body.list, 'areaname')
-        if(res.body && res.body.list){
-          for(var i=0; i<res.body.list.length; i++){
-            res.body.list[i].description = Base64.decode(res.body.list[i].description)
-          }
-        }
-        this.navDataGK = res.body.list
-      })
-    },
-    // 百科。。。。游记（1-百科，，2游记）1
-    getBKYJnav(type){
-      this.$http.get('/API/index.ashx?command=GetCategoryByCategoryId&categoryid='+type).then(function (res) {
-        res.body = this.formatterNavVal(res.body, 'category')
-        if(type == 1){
-          this.navDataBK = res.body
-        }else if(type == 2){
-          this.navDataYJ = res.body
-        }
-        
-      })
-    },
-    // 格式化数据
-    formatterNavVal(data, showName){
-      for(var i=0; i<data.length; i++){
-        if(data[i].id) data[i].id = data[i].id.toString();
-        data[i].name = data[i][showName]
-      }
-      return data;
-    }
   }
 }
 </script>
 
 <style lang="scss">
-
+  .cs-home{
+    .cs-home-part1{
+      background-color: #fff;
+      text-align: center;
+      height: 1120px;
+      background: url(../assets/img/cs-home-1.jpg) no-repeat bottom;
+      background-size: auto;
+      .cs-home-con{
+        width: 920px;
+        margin: 0 auto;
+      }
+      .tit{
+        padding: 110px 0 50px 0;
+      }
+      .subtitle{
+        padding-bottom: 10px;
+      }
+      .con{
+        &:last-child{
+          margin-top: 40px;
+        }
+      }
+    }
+    // 基础教育--高等教育
+    .cs-home-part2{
+      padding: 85px 0;
+      height: 710px;
+      overflow: hidden;
+      .image {
+        width: 100%;
+        height: 350px;
+        display: block;
+      }
+      .el-card,.el-card__body{
+        border-radius: 22px;
+      }
+      .img-tit{
+        width: 560px;
+        height: 190px;
+        background-color: #fff;
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        span.tit{
+          font-size: 40px;
+          font-weight: 600;
+          color: #000000;
+        }
+        .button span{
+          font-size: 22px;
+          font-weight: 400;
+          color: #0071E3;
+        }
+      }
+    }
+    // 即刻登入
+    .cs-home-part3{
+      background: #fff;
+      height: 798px;
+      .con{
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+        .tit{
+          font-size: 40px;
+          font-weight: 600;
+          color: #000000;
+          padding: 78px 0 40px 0;
+        }
+        .button{
+          width: 240px;
+          height: 76px;
+          background: #0071E3;
+          border-radius: 38px;
+          display: inline-block;
+          margin-bottom: 55px;
+          a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 76px;
+            font-size: 28px;
+            font-weight: 400;
+            color: #FFFFFF;
+          }
+        }
+      }
+    }
+  }
 </style>
