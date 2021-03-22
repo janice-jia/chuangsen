@@ -43,6 +43,7 @@ export default {
 </script>
 <style lang="scss">
 .AboutUs{
+   border-bottom: 1px solid #D6D6D6;
     // 企业愿景
     .tit{
         font-size: 40px;

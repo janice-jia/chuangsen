@@ -21,7 +21,7 @@
               <div class="img-tit">
                 <span class="tit">汉口学院苹果体验店</span>
                 <div class="bottom clearfix">
-                  <el-button type="text" class="button">进一步了解</el-button>
+                  <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
                 </div>
               </div>
             </el-card>
@@ -32,7 +32,7 @@
               <div class="img-tit">
                 <span class="tit">高等教育</span>
                 <div class="bottom clearfix">
-                  <el-button type="text" class="button">进一步了解</el-button>
+                  <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
                 </div>
               </div>
             </el-card>

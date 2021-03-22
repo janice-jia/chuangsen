@@ -56,6 +56,7 @@ export default {
     getRouterIndex(){
       if(this.$route.name == 'AboutUs') this.activeIndex = '4'
       if(this.$route.name == 'ContactUs') this.activeIndex = '5'
+      if(this.$route.name == 'BasicEduTeacherTraining' || this.$route.name == 'BasicEduTeacherResource') this.activeIndex = '2'
     },
     handleSelect(v){
       this.activeIndex = v

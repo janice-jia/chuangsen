@@ -1,7 +1,8 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
-import BasicEducation from './views/BasicEducation.vue'
+import BasicEduTeacherTraining from './views/BasicEduTeacherTraining.vue'
+import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
 import Company from './views/Company.vue'
 import AboutUs from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
@@ -23,11 +24,17 @@ export default new Router({
             name: 'home',
             component: Home
         },
-        //基础教育
+        //基础教育-教师培训
         {
-            path: '/BasicEducation',
-            name: 'BasicEducation',
-            component: BasicEducation
+            path: '/BasicEduTeacherTraining',
+            name: 'BasicEduTeacherTraining',
+            component: BasicEduTeacherTraining
+        },
+        //基础教育-教师资源
+        {
+            path: '/BasicEduTeacherResource',
+            name: 'BasicEduTeacherResource',
+            component: BasicEduTeacherResource
         },
         // 关于我们
         {
