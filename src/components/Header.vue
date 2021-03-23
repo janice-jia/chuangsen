@@ -14,7 +14,17 @@
             <div class="pcMenu">
               <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
                 <el-menu-item index="1"><router-link to="home" active-class="activeClass">Apple 与教育</router-link></el-menu-item>
-                <el-menu-item index="2"><router-link to="company" active-class="activeClass">基础教育</router-link></el-menu-item>
+                <el-submenu index="2">
+                  <template slot="title">基础教育</template>
+                  <el-menu-item index="2-1"><router-link to="BasicEduTeacherLeader" active-class="activeClass">学校领导力</router-link></el-menu-item>
+                  <el-menu-item index="2-2"><router-link to="BasicEduTeacherTraining" active-class="activeClass">教师培训</router-link></el-menu-item>
+                  <el-menu-item index="2-3"><router-link to="BasicEduTeacherResource" active-class="activeClass">教师资源</router-link></el-menu-item>
+                  <el-menu-item index="2-4"><router-link to="home" active-class="activeClass">家长</router-link></el-menu-item>
+                  <el-menu-item index="2-5"><router-link to="home" active-class="activeClass">IT服务</router-link></el-menu-item>
+                  <el-menu-item index="2-6"><router-link to="home" active-class="activeClass">解决方案</router-link></el-menu-item>
+                  <el-menu-item index="2-7"><router-link to="home" active-class="activeClass">成功案例</router-link></el-menu-item>
+                </el-submenu>
+                <!-- <el-menu-item index="2"><router-link to="company" active-class="activeClass">基础教育</router-link></el-menu-item> -->
                 <el-menu-item index="3"><router-link to="YLairline" active-class="activeClass">高等教育</router-link></el-menu-item>
                 <el-menu-item index="4"><router-link to="AboutUs" active-class="activeClass">关于我们</router-link></el-menu-item>
                 <el-menu-item index="5"><router-link to="ContactUs" active-class="activeClass">联系我们</router-link></el-menu-item>

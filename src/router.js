@@ -1,9 +1,9 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
+import BasicEduTeacherLeader from './views/BasicEduTeacherLeader.vue'
 import BasicEduTeacherTraining from './views/BasicEduTeacherTraining.vue'
 import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
-import Company from './views/Company.vue'
 import AboutUs from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
 import ComingSoon from './views/ComingSoon.vue'
@@ -23,6 +23,12 @@ export default new Router({
             path: '/home',
             name: 'home',
             component: Home
+        },
+        //基础教育-教师领导力
+        {
+            path: '/BasicEduTeacherLeader',
+            name: 'BasicEduTeacherLeader',
+            component: BasicEduTeacherLeader
         },
         //基础教育-教师培训
         {
@@ -53,12 +59,6 @@ export default new Router({
             path: '/comingSoon',
             name: 'comingSoon',
             component: ComingSoon
-        },
-        // 邮轮公司
-        {
-            path: '/company',
-            name: 'company',
-            component: Company
         }
     ],
     scrollBehavior(to, from,savedPosition) {
