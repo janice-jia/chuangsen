@@ -5,7 +5,7 @@
     <el-row>
         <el-col :span="6">
           <div class="logo">
-            <img src="../assets/logo.png" alt="">
+            <router-link to="home"><img src="../assets/logo.png" alt=""></router-link>
           </div>
         </el-col>
         <el-col :span="14">
@@ -25,7 +25,13 @@
                   <el-menu-item index="2-7"><router-link to="home" active-class="activeClass">成功案例</router-link></el-menu-item>
                 </el-submenu>
                 <!-- <el-menu-item index="2"><router-link to="company" active-class="activeClass">基础教育</router-link></el-menu-item> -->
-                <el-menu-item index="3"><router-link to="YLairline" active-class="activeClass">高等教育</router-link></el-menu-item>
+                <el-submenu index="3">
+                  <template slot="title">高等教育</template>
+                  <el-menu-item index="3-1"><router-link to="Protrain" active-class="activeClass">专业培训</router-link></el-menu-item>
+                  <el-menu-item index="3-2"><router-link to="iOSCourse" active-class="activeClass">iOS 课程</router-link></el-menu-item>
+                  <el-menu-item index="3-3"><router-link to="iOSClub" active-class="activeClass">iOS 俱乐部</router-link></el-menu-item>
+                </el-submenu>
+                <!-- <el-menu-item index="3"><router-link to="YLairline" active-class="activeClass">高等教育</router-link></el-menu-item> -->
                 <el-menu-item index="4"><router-link to="AboutUs" active-class="activeClass">关于我们</router-link></el-menu-item>
                 <el-menu-item index="5"><router-link to="ContactUs" active-class="activeClass">联系我们</router-link></el-menu-item>
               </el-menu>

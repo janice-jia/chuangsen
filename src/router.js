@@ -4,6 +4,11 @@ import Home from './views/Home.vue'
 import BasicEduTeacherLeader from './views/BasicEduTeacherLeader.vue'
 import BasicEduTeacherTraining from './views/BasicEduTeacherTraining.vue'
 import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
+import Protrain from './views/Protrain.vue'
+import iOSCourse from './views/iOSCourse.vue'
+import iOSClub from './views/iOSClub.vue'
+
+
 import AboutUs from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
 import ComingSoon from './views/ComingSoon.vue'
@@ -53,6 +58,24 @@ export default new Router({
             path:'/ContactUs',
             name: 'ContactUs',
             component: ContactUs
+        },
+        // 专业培训
+        {
+            path:'/Protrain',
+            name: 'Protrain',
+            component: Protrain
+        },
+        // IOS 课程
+        {
+            path:'/iOSCourse',
+            name: 'iOSCourse',
+            component: iOSCourse
+        },
+        // IOS 俱乐部
+        {
+            path:'/iOSClub',
+            name: 'iOSClub',
+            component: iOSClub
         },
         // 网站建设中ing
         {

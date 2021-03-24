@@ -106,7 +106,6 @@ p.con{
     //     height: 100%;
     // }
     .pcMenu{
-        margin-top: 22px;
         font-size: 20px;
         width: 572px;
         font-weight: 400;
@@ -114,15 +113,19 @@ p.con{
             background: #000;
             border-bottom: none;
         }
-        .el-menu--horizontal > .el-menu-item{
-            height: 60px;
-            line-height: 60px;
+        .el-menu--horizontal > .el-menu-item,
+        .el-menu--horizontal > .el-submenu > .el-submenu__title{
+            height: 110px;
+            line-height: 110px;
             font-size: 20px;
             color: #FFFFFF;
             padding: 0 10px;
             &:focus{
                 background: none;
             }
+        }
+        .el-menu--horizontal > .el-submenu > .el-submenu__title:hover{
+            background: none;
         }
         .el-menu--horizontal > .el-menu-item:not(.is-disabled):hover,
         .el-menu--horizontal > .el-menu-item:not(.is-disabled):focus{
@@ -131,6 +134,49 @@ p.con{
         }
         .el-menu--horizontal > .el-menu-item.is-active{
             border-bottom: 1px solid #FFFFFF;
+        }
+        .el-menu--horizontal > .el-submenu .el-submenu__icon-arrow{
+            display: none;
+        }
+    }
+}
+.el-menu--horizontal{
+    border-radius: 0px 0px 6px 6px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+}
+.el-menu--horizontal > .el-menu--popup{
+    min-width: auto;
+    padding: 0;
+    background: #FFFFFF;
+    .el-menu-item{
+        height: 48px;
+        line-height: 48px;
+        position: relative;
+        text-align: center;
+        padding: 0;
+        &::after{
+            content: '';
+            position: absolute;
+            left: 18px;
+            bottom: 0;
+            width: 80px;
+            border-bottom:1px solid #EBEBEB;
+        }
+        &:last-child{
+            &::after{display: none;}
+        }
+        a{
+            font-size: 16px;
+            font-weight: 400;
+            color: #000;
+            display: inline-block;
+            padding: 0 18px;
+            width: 100%;
+            &:hover{
+                color: #7b8186;
+                background: #EBEBEB;
+            }
         }
         
     }

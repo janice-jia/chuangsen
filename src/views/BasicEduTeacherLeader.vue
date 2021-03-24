@@ -111,6 +111,24 @@
       </div>
     </div>
 
+    <div class="cs-BasicEduTeaLead-part2">
+        <div class="container">
+            <h1>面向领导者的图书</h1>
+            <p class="p1">树立创新思维、塑造创新文化，领导力系列是我们精心为您准备的实用策略工具。</p>
+            <el-row type="flex" class="row-bg" justify="center">
+                <el-col :span="10">
+                    <img src="../assets/img/teacherLead-1.jpg" alt="">
+                    <p class="p2">《领导力要素》</p>
+                    <a href="" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
+                </el-col>
+                <el-col :span="10">
+                    <img src="../assets/img/teacherLead-2.jpg" alt="">
+                    <p class="p2">《推动学校创新》</p>
+                    <a href="" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
+                </el-col>
+            </el-row>
+        </div>
+    </div>
   </div>
 </template>
 <script>
@@ -213,5 +231,39 @@ export default {
           }
       }
   }
+
+    .cs-BasicEduTeaLead-part2{
+        background: #fff;
+        padding: 79px 0;
+        .container{
+            text-align: center;
+            h1{
+                font-size: 42px;
+                font-weight: 600;
+                color: #000000;
+                line-height: 38px;
+            }
+            .p1{
+                font-size: 24px;
+                font-weight: 400;
+                color: #000000;
+                line-height: 38px;
+                margin: 41px 0 68px 0;
+            }
+            .p2{
+                font-size: 32px;
+                font-weight: 600;
+                color: #000000;
+                line-height: 30px;
+                margin: 42px 0 36px 0;
+            }
+            .more{
+                font-size: 26px;
+                font-weight: 400;
+                color: #0071E3;
+                line-height: 30px;
+            }
+        }
+    }
 }
 </style>

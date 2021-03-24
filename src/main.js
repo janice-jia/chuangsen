@@ -3,9 +3,10 @@ import App from './App.vue'
 import router from './router'
 import VueResource from 'vue-resource'
 import 'lib-flexible'
-import './plugins/element.js'
 import VueDirectiveImagePreviewer from 'vue-directive-image-previewer'
 import 'vue-directive-image-previewer/dist/assets/style.css'
+import './plugins/element.js'
+
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
