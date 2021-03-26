@@ -146,6 +146,13 @@ export default {
     .cs-Protrain-part1{
       background: #f5f5f7;
       text-align: center;
+      h1{
+        font-size: 58px;
+        font-weight: 600;
+        color: #000000;
+        line-height: 76px;
+        padding: 115px 0 104px 0;
+      }
       .item{
         .item-1,.item-2,.item-3{
           float: left;
