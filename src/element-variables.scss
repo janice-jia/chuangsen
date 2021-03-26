@@ -41,7 +41,7 @@ li{
     width: 1200px;
     margin: 0 auto;
     max-width: 100%;
-    padding: 0 10px;
+    // padding: 0 10px;
 }
 
 #app{
@@ -132,7 +132,8 @@ p.con{
             background: none;
             // font-weight: bold;
         }
-        .el-menu--horizontal > .el-menu-item.is-active{
+        .el-menu--horizontal > .el-menu-item.is-active,
+        .el-menu--horizontal > .el-menu-item.is-active .el-submenu__title{
             border-bottom: 1px solid #FFFFFF;
         }
         .el-menu--horizontal > .el-submenu .el-submenu__icon-arrow{
@@ -143,8 +144,12 @@ p.con{
 .el-menu--horizontal{
     border-radius: 0px 0px 6px 6px;
     overflow: hidden;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04)
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    .el-submenu.is-active .el-submenu__title{
+        border-bottom: 1px solid #FFFFFF;
+    }
 }
+
 .el-menu--horizontal > .el-menu--popup{
     min-width: auto;
     padding: 0;
@@ -178,7 +183,9 @@ p.con{
                 background: #EBEBEB;
             }
         }
-        
+        &.is-active{
+            background: #EBEBEB;
+        }
     }
 }
 

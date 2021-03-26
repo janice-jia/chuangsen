@@ -81,7 +81,7 @@ export default {
       text-align: center;
       height: 1120px;
       background: url(../assets/img/cs-home-1.jpg) no-repeat bottom;
-      background-size: auto;
+      background-size:100% auto;
       .cs-home-con{
         width: 920px;
         margin: 0 auto;

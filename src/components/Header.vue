@@ -30,6 +30,7 @@
                   <el-menu-item index="3-1"><router-link to="Protrain" active-class="activeClass">专业培训</router-link></el-menu-item>
                   <el-menu-item index="3-2"><router-link to="iOSCourse" active-class="activeClass">iOS 课程</router-link></el-menu-item>
                   <el-menu-item index="3-3"><router-link to="iOSClub" active-class="activeClass">iOS 俱乐部</router-link></el-menu-item>
+                  <el-menu-item index="3-4"><router-link to="home" active-class="activeClass">校园体验中心</router-link></el-menu-item>
                 </el-submenu>
                 <!-- <el-menu-item index="3"><router-link to="YLairline" active-class="activeClass">高等教育</router-link></el-menu-item> -->
                 <el-menu-item index="4"><router-link to="AboutUs" active-class="activeClass">关于我们</router-link></el-menu-item>
