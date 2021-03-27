@@ -76,7 +76,7 @@ export default {
         height: 820px;
         background: #F5F5F7;
         .tit{
-            margin: 80px 0 57px 0;
+            padding: 80px 0 57px 0;
         }
         .cs-aboutUs-part2-con{
             background: #fff;
@@ -86,6 +86,7 @@ export default {
             box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
             img{
                 float: left;
+                width: 540px;
             }
             .con{
                 width: 640px;

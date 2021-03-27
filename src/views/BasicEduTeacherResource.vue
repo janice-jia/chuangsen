@@ -13,6 +13,7 @@
                     </div>
                     <a href="" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </div>
+                <div style="clear:both"></div>
             </div>
 
             <div class="item">
@@ -24,6 +25,7 @@
                     </div>
                     <a href="" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </div>
+                <div style="clear:both"></div>
             </div>
 
             <div class="item">
@@ -35,6 +37,7 @@
                     </div>
                     <a href="" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </div>
+                <div style="clear:both"></div>
             </div>
       </div>
     </div>
@@ -104,21 +107,25 @@ export default {
             margin: 115px 0 96px 0;
           }
           .item{
-            height: 400px;
+            // height: 400px;
             background: #FFFFFF;
             border-radius: 22px;
             margin-bottom: 33px;
+            padding: 48px 0;
             .item-l,.item-r{
                 float: left;
             }
             .item-l{
-                text-align: center;
-                width: 415px;
-                padding-top: 48px;
+                text-align: right;
+                width: 365px;
+                padding-left: 81px;
+                img{
+                    max-width: 100%;
+                }
             }
             .item-r{
                 width: 765px;
-                padding: 65px 86px 0 0;
+                padding: 17px 86px 0 53px;
                 h1{
                     font-size: 32px;
                     font-weight: 600;
@@ -203,6 +210,9 @@ export default {
   .cs-BasicEduTeaRes-part3{
       background: #f5f5f7;
       padding-bottom: 52px;
+      img{
+          max-width: 100%;
+      }
       h1.tit{
         font-size: 42px;
         font-weight: 600;

@@ -1,7 +1,8 @@
 <template>
   <div class="cf-footer">
     <div class="container">
-       <el-row type="flex" justify="space-between" class="foot-con1">
+      <div class="foot-con1">
+       <el-row type="flex" justify="space-between" >
         <el-col :span="10">
           <div class="middle-img">
             <img class="logo" src="../assets/foot_logo.png" alt="">
@@ -22,6 +23,7 @@
           </el-row>
         </el-col>
        </el-row>
+       </div>
       <p class="Copyright">
         <span>Copyright © 2021 xxxxxxxx. 保留所有权利。</span>
       </p>

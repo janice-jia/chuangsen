@@ -130,6 +130,9 @@ export default {
   .cs-BasEduTeaTrain-part2{
     background: #FFFFFF;
     padding: 0 0 108px 0;
+    img{
+      max-width: 100%;
+    }
     .container{
       text-align: center;
       p{

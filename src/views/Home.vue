@@ -77,10 +77,9 @@ export default {
 <style lang="scss">
   .cs-home{
     .cs-home-part1{
-      background-color: #fff;
       text-align: center;
       height: 1120px;
-      background: url(../assets/img/cs-home-1.jpg) no-repeat bottom;
+      background: url(../assets/img/cs-home-1.jpg) no-repeat bottom #fff;
       background-size:100% auto;
       .cs-home-con{
         width: 920px;
@@ -134,6 +133,9 @@ export default {
     .cs-home-part3{
       background: #fff;
       height: 798px;
+      img{
+        max-width: 100%;
+      }
       .con{
         display: table-cell;
         vertical-align: middle;

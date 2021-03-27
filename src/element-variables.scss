@@ -38,14 +38,14 @@ li{
     list-style: none;
 }
 .container{
-    width: 1200px;
+    width: 1220px;
     margin: 0 auto;
     max-width: 100%;
-    // padding: 0 10px;
+    padding: 0 10px;
 }
 
 #app{
-    min-width: 1200px;
+    min-width: 1220px;
     overflow: hidden;
 }
 
@@ -191,16 +191,16 @@ p.con{
 
 // footer 底部
 .cf-footer{
-    height: 330px;
     background: #F5F5F7;
     text-align: center;
     color: #333333;
+    padding: 40px 0 0 0;
     .foot-con1{
-        height: 270px;
         border-bottom: 1px solid #D6D6D6;
+        padding-bottom: 40px;
     }
     .middle-img{
-        height: 270px;
+        height: 180px;
         display: table-cell;
         vertical-align: middle;
         img{
@@ -210,11 +210,13 @@ p.con{
     }
     .foot-logo{
         .foot-logo-item{
-            height: 270px;
             display: table-cell;
             vertical-align: middle;
+            img{
+                max-height: 100%;
+            }
             &:first-child{
-                padding-right: 60px;
+                padding-right:60px;
             }
         }
     }

@@ -114,7 +114,41 @@
 
     <div class="cs-Protrain-part5">
       <div class="container">
-        huan deng pian
+        <el-row>
+          <el-col :span="12">
+            <template>
+              <el-carousel :interval="5000" height="540px" arrow="always">
+                <el-carousel-item>
+                  <h3>申请成为 RTC 的流程</h3>
+                  <p>在收到合作伙伴的申请后，我们会组织专家委员会，对合作伙伴的申请进行评估和审核，并根据需要组织现场教室验收。</p>
+                </el-carousel-item>
+                <el-carousel-item>
+                  <h3>第一步：资质准备。</h3>
+                  <p>根据我们的资质要求表格，建立至少1间标准培训教室并安排讲师完成培训。建议准备 IT 支持人员和运营人员。</p>
+                </el-carousel-item>
+                <el-carousel-item>
+                  <h3>第二步：提出申请。</h3>
+                  <p>使用我们标准的申请表格提出申请。</p>
+                </el-carousel-item>
+                <el-carousel-item>
+                  <h3>第三步：审批标准。</h3>
+                  <p>在收到合作伙伴的申请后，我们会组织专家委员会，对合作伙伴的申请进行评估和审核，并根据需要组织现场教室验收。</p>
+                </el-carousel-item>
+                <el-carousel-item>
+                  <h3>第四步：授予标牌。</h3>
+                  <p>评估后符合条件的合作伙伴，会授予区域教育培训中心标牌和证书。</p>
+                </el-carousel-item>
+                <el-carousel-item>
+                  <h3>第五步：授权更新。</h3>
+                  <p>Apple 每年定期两次对 RTC(区域教育培训中心)进行评估审核。</p>
+                </el-carousel-item>
+              </el-carousel>
+            </template>
+          </el-col>
+          <el-col :span="12">
+            <img src="../assets/img/cs-protrain-7.jpg" alt="">
+          </el-col>
+        </el-row>
       </div>
     </div>
 
@@ -352,6 +386,10 @@ export default {
     .item{
       display: flex;
       padding-bottom: 60px;
+      img{
+        max-width: 100%;
+        max-height: 100%;
+      }
       .p2,.p4{
         font-size: 26px;
         font-weight: 600;
@@ -423,6 +461,47 @@ export default {
   .cs-Protrain-part5{
     background: #f5f5f7;
     padding: 80px 0;
+    .container{
+      border-radius: 22px;
+      background: #DEEDF4;
+      overflow: hidden;
+      img{
+        float: left;
+      }
+      .el-carousel__arrow,
+      .el-carousel__arrow--left,
+      .el-carousel__arrow--right{
+        background: none;
+        font-size: 20px;
+        color: #828288;
+      }
+      .el-carousel__button{
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #C0C0C3;
+      }
+      
+      .el-carousel__indicators--horizontal{
+        bottom: 105px;
+      }
+      .el-carousel__item{
+        padding: 107px 95px;
+        h3{
+          font-size: 42px;
+          font-weight: 600;
+          color: #000000;
+          line-height: 30px;
+        }
+        p{
+          margin-top: 52px;
+          font-size: 20px;
+          font-weight: 400;
+          color: #333333;
+          line-height: 38px;
+        }
+      }
+    }
   }
   .cs-Protrain-part6{
     background: #fff;
@@ -432,13 +511,15 @@ export default {
       font-size: 42px;
       font-weight: 600;
       line-height: 38px;
+      text-align: center;
     }
     .p2{
       font-size: 20px;
       font-weight: 400;
       color: #000000;
       line-height: 38px;
-      margin-top: 60px;
+      margin: 60px auto 0 auto;
+      width: 958px;
     }
   }
 }

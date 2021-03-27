@@ -78,7 +78,7 @@
 
             <el-row :gutter="60">
                 <el-col :span="12">
-                    <div class="item" style="height:330px">
+                    <div class="item item-5" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
                                 <img src="../assets/img/icon-teacherLead-5.png" alt="">
@@ -87,22 +87,22 @@
                         <div class="item-con">
                             <div class="middle" style="height:330px">
                                 <p class="p1">引导学校文化</p>
-                                <p class="p2" style="width:313px">塑造教职工、学生和家长之间的互动方式，创造有关学习、教学和教育的共同理念。</p>
+                                <p class="p2">塑造教职工、学生和家长之间的互动方式，创造有关学习、教学和教育的共同理念。</p>
                             </div>
                         </div>
                     </div>
                 </el-col>
                 <el-col :span="12">
-                    <div class="item" style="height:330px">
+                    <div class="item item-6" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
                                 <img src="../assets/img/icon-teacherLead-6.png" alt="">
                             </div>
                         </div>
                         <div class="item-con">
-                            <div class="middle" style="height:330px;width:320px;">
-                                <p class="p1" style="width:320px;">设计可持续的财务模型</p>
-                                <p class="p2" style="width:306px">当学生和教职人员开始使用 Apple 产品和服务，可以大幅调整学校的预算配置，包括技术、学校用品，甚至设施与人事方面的预算考量。</p>
+                            <div class="middle" style="height:330px;">
+                                <p class="p1">设计可持续的财务模型</p>
+                                <p class="p2">当学生和教职人员开始使用 Apple 产品和服务，可以大幅调整学校的预算配置，包括技术、学校用品，甚至设施与人事方面的预算考量。</p>
                             </div>
                         </div>
                     </div>
@@ -185,6 +185,9 @@ export default {
                 text-align: center;
                 margin: 0 auto;
           }
+          .p3{
+              width: 680px;
+          }
           .p4{
               margin: 50px 0 63px 0;
               font-size: 28px;
@@ -193,6 +196,7 @@ export default {
           .item{
               background: #fff;
               border-radius: 22px;
+              word-break: break-word;
               .middle{
                   display: table-cell;
                   vertical-align: middle;
@@ -226,6 +230,16 @@ export default {
                   }
               }
           }
+          .item-6{
+              .item-con{
+                  width: 325px;
+              }
+          }
+          .item-5{
+              .item-con{
+                  width: 320px;
+              }
+          }
           .el-col{
               margin-bottom: 60px;
           }
@@ -255,7 +269,7 @@ export default {
                 font-weight: 600;
                 color: #000000;
                 line-height: 30px;
-                margin: 42px 0 36px 0;
+                margin: 42px 0 36px;
             }
             .more{
                 font-size: 26px;
