@@ -7,6 +7,8 @@ import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
 import Protrain from './views/Protrain.vue'
 import iOSCourse from './views/iOSCourse.vue'
 import iOSClub from './views/iOSClub.vue'
+import iOSExperience from './views/iOSExperience.vue'
+
 
 
 import AboutUs from './views/AboutUs.vue'
@@ -15,7 +17,7 @@ import ComingSoon from './views/ComingSoon.vue'
 Vue.use(Router)
 
 export default new Router({
-    // mode: 'history',
+    mode: 'history',
     base: process.env.BASE_URL,
     routes: [
         // 首页
@@ -76,6 +78,12 @@ export default new Router({
             path:'/iOSClub',
             name: 'iOSClub',
             component: iOSClub
+        },
+        // IOS 校园体验中心
+        {
+            path:'/iOSExperience',
+            name: 'iOSExperience',
+            component: iOSExperience
         },
         // 网站建设中ing
         {

@@ -30,7 +30,7 @@
                   <el-menu-item index="3-1"><router-link to="Protrain" active-class="activeClass">专业培训</router-link></el-menu-item>
                   <el-menu-item index="3-2"><router-link to="iOSCourse" active-class="activeClass">iOS 课程</router-link></el-menu-item>
                   <el-menu-item index="3-3"><router-link to="iOSClub" active-class="activeClass">iOS 俱乐部</router-link></el-menu-item>
-                  <el-menu-item index="3-4"><router-link to="home" active-class="activeClass">校园体验中心</router-link></el-menu-item>
+                  <el-menu-item index="3-4"><router-link to="iOSExperience" active-class="activeClass">校园体验中心</router-link></el-menu-item>
                 </el-submenu>
                 <!-- <el-menu-item index="3"><router-link to="YLairline" active-class="activeClass">高等教育</router-link></el-menu-item> -->
                 <el-menu-item index="4"><router-link to="AboutUs" active-class="activeClass">关于我们</router-link></el-menu-item>
@@ -71,9 +71,18 @@ export default {
   },
   methods: {
     getRouterIndex(){
+      if(this.$route.name == 'home') this.activeIndex = '1'
       if(this.$route.name == 'AboutUs') this.activeIndex = '4'
       if(this.$route.name == 'ContactUs') this.activeIndex = '5'
-      if(this.$route.name == 'BasicEduTeacherTraining' || this.$route.name == 'BasicEduTeacherResource') this.activeIndex = '2'
+      if(this.$route.name == 'BasicEduTeacherLeader') this.activeIndex = '2-1'
+      if(this.$route.name == 'BasicEduTeacherTraining') this.activeIndex = '2-2'
+      if(this.$route.name == 'BasicEduTeacherResource') this.activeIndex = '2-3'
+
+      if(this.$route.name == 'Protrain') this.activeIndex = '3-1'
+      if(this.$route.name == 'iOSCourse') this.activeIndex = '3-2'
+      if(this.$route.name == 'iOSClub') this.activeIndex = '3-3'
+      if(this.$route.name == 'iOSExperience') this.activeIndex = '3-3'
+      
     },
     handleSelect(v){
       this.activeIndex = v
