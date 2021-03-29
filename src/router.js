@@ -4,6 +4,7 @@ import Home from './views/Home.vue'
 import BasicEduTeacherLeader from './views/BasicEduTeacherLeader.vue'
 import BasicEduTeacherTraining from './views/BasicEduTeacherTraining.vue'
 import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
+import BasicEduParents from './views/BasicEduParents.vue'
 import Protrain from './views/Protrain.vue'
 import iOSCourse from './views/iOSCourse.vue'
 import iOSClub from './views/iOSClub.vue'
@@ -48,6 +49,12 @@ export default new Router({
             path: '/BasicEduTeacherResource',
             name: 'BasicEduTeacherResource',
             component: BasicEduTeacherResource
+        },
+        //基础教育-家长
+        {
+            path: '/BasicEduParents',
+            name: 'BasicEduParents',
+            component: BasicEduParents
         },
         // 关于我们
         {

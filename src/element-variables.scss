@@ -38,14 +38,14 @@ li{
     list-style: none;
 }
 .container{
-    width: 1220px;
+    width: 1360px;
     margin: 0 auto;
     max-width: 100%;
-    padding: 0 10px;
+    padding: 0 80px;
 }
 
 #app{
-    min-width: 1220px;
+    min-width: 1380px;
     overflow: hidden;
 }
 
@@ -87,6 +87,12 @@ p.con{
             }
             .interval{
                 padding: 0 10px;
+            }
+        }
+        @media screen and (max-width: 1400px) {
+            .LanguageSelection{
+                right: 0px;
+                font-size: 14px;
             }
         }
     }

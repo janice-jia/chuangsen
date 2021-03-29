@@ -81,7 +81,7 @@ export default {
       if(this.$route.name == 'Protrain') this.activeIndex = '3-1'
       if(this.$route.name == 'iOSCourse') this.activeIndex = '3-2'
       if(this.$route.name == 'iOSClub') this.activeIndex = '3-3'
-      if(this.$route.name == 'iOSExperience') this.activeIndex = '3-3'
+      if(this.$route.name == 'iOSExperience') this.activeIndex = '3-4'
       
     },
     handleSelect(v){
