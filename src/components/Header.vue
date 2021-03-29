@@ -19,10 +19,10 @@
                   <el-menu-item index="2-1"><router-link to="BasicEduTeacherLeader" active-class="activeClass">学校领导力</router-link></el-menu-item>
                   <el-menu-item index="2-2"><router-link to="BasicEduTeacherTraining" active-class="activeClass">教师培训</router-link></el-menu-item>
                   <el-menu-item index="2-3"><router-link to="BasicEduTeacherResource" active-class="activeClass">教师资源</router-link></el-menu-item>
-                  <el-menu-item index="2-4"><router-link to="home" active-class="activeClass">家长</router-link></el-menu-item>
-                  <el-menu-item index="2-5"><router-link to="home" active-class="activeClass">IT服务</router-link></el-menu-item>
-                  <el-menu-item index="2-6"><router-link to="home" active-class="activeClass">解决方案</router-link></el-menu-item>
-                  <el-menu-item index="2-7"><router-link to="home" active-class="activeClass">成功案例</router-link></el-menu-item>
+                  <el-menu-item index="2-4"><router-link to="BasicEduParents" active-class="activeClass">家长</router-link></el-menu-item>
+                  <el-menu-item index="2-5"><router-link to="BasicEduIT" active-class="activeClass">IT服务</router-link></el-menu-item>
+                  <el-menu-item index="2-6"><router-link to="BasicEduSolution" active-class="activeClass">解决方案</router-link></el-menu-item>
+                  <el-menu-item index="2-7"><router-link to="BasicEduSuccessCases" active-class="activeClass">成功案例</router-link></el-menu-item>
                 </el-submenu>
                 <!-- <el-menu-item index="2"><router-link to="company" active-class="activeClass">基础教育</router-link></el-menu-item> -->
                 <el-submenu index="3">
@@ -77,12 +77,16 @@ export default {
       if(this.$route.name == 'BasicEduTeacherLeader') this.activeIndex = '2-1'
       if(this.$route.name == 'BasicEduTeacherTraining') this.activeIndex = '2-2'
       if(this.$route.name == 'BasicEduTeacherResource') this.activeIndex = '2-3'
+      if(this.$route.name == 'BasicEduParents') this.activeIndex = '2-4'
+      if(this.$route.name == 'BasicEduIT') this.activeIndex = '2-5'
+      if(this.$route.name == 'BasicEduSolution') this.activeIndex = '2-6'
+      if(this.$route.name == 'BasicEduSuccessCases') this.activeIndex = '2-7'
+      
 
       if(this.$route.name == 'Protrain') this.activeIndex = '3-1'
       if(this.$route.name == 'iOSCourse') this.activeIndex = '3-2'
       if(this.$route.name == 'iOSClub') this.activeIndex = '3-3'
       if(this.$route.name == 'iOSExperience') this.activeIndex = '3-4'
-      
     },
     handleSelect(v){
       this.activeIndex = v

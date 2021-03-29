@@ -5,6 +5,10 @@ import BasicEduTeacherLeader from './views/BasicEduTeacherLeader.vue'
 import BasicEduTeacherTraining from './views/BasicEduTeacherTraining.vue'
 import BasicEduTeacherResource from './views/BasicEduTeacherResource.vue'
 import BasicEduParents from './views/BasicEduParents.vue'
+import BasicEduIT from './views/BasicEduIT.vue'
+import BasicEduSolution from './views/BasicEduSolution.vue'
+import BasicEduSuccessCases from './views/BasicEduSuccessCases.vue'
+
 import Protrain from './views/Protrain.vue'
 import iOSCourse from './views/iOSCourse.vue'
 import iOSClub from './views/iOSClub.vue'
@@ -55,6 +59,24 @@ export default new Router({
             path: '/BasicEduParents',
             name: 'BasicEduParents',
             component: BasicEduParents
+        },
+        //基础教育-IT服务
+        {
+            path: '/BasicEduIT',
+            name: 'BasicEduIT',
+            component: BasicEduIT
+        },
+        //基础教育-解决方案
+        {
+            path: '/BasicEduSolution',
+            name: 'BasicEduSolution',
+            component: BasicEduSolution
+        },
+        //基础教育-成功案例
+        {
+            path: '/BasicEduSuccessCases',
+            name: 'BasicEduSuccessCases',
+            component: BasicEduSuccessCases
         },
         // 关于我们
         {
