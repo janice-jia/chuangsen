@@ -69,7 +69,7 @@
             <div style="clear:both"></div>
         </div>
         <div class="item-3">
-          <el-row :gutter="53">
+          <el-row :gutter="60">
             <el-col :span="12">
               <div class="img"><img src="../assets/img/cs-basicEduS-2.jpg" alt=""></div>
               <p style="color: #63CAAD;">发放和培训</p>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="item-4">
-          <el-row :gutter="53">
+          <el-row :gutter="60">
             <el-col :span="12">
               <div class="item-4-box">
                 <div class="part1">
@@ -124,11 +124,11 @@
                       <p class="icontit">VIP 服务</p>
                     </el-col>
                     <el-col>
-                      <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-13.png" alt=""></div>
+                      <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-14.png" alt=""></div>
                       <p class="icontit">上门接送机</p>
                     </el-col>
                     <el-col>
-                      <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-14.png" alt=""></div>
+                      <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-15.png" alt=""></div>
                       <p class="icontit">备机服务</p>
                     </el-col>
                   </el-row>
@@ -137,8 +137,43 @@
             </el-col>
           </el-row>
         </div>
+        <h1 class="tit" style="color: #E9612A;">设备回收</h1>
+        <div class="item-5">
+          <div class="part1">
+            <el-row type="flex" justify="space-between">
+              <el-col style="width:522px;margin:0 10px 0 70px">
+                <el-row type="flex" justify="space-between" style="text-align:center;margin:30px 0 65px 0">
+                  <el-col>
+                    <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-16.png" alt=""></div>
+                    <p class="icontit">旧设备回收</p>
+                  </el-col>
+                  <el-col>
+                    <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-17.png" alt=""></div>
+                    <p class="icontit">数据擦除</p>
+                  </el-col>
+                </el-row>
+                <el-row type="flex" justify="space-between" style="text-align:center">
+                  <el-col>
+                    <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-18.png" alt=""></div>
+                    <p class="icontit">设备检测</p>
+                  </el-col>
+                  <el-col>
+                    <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-19.png" alt=""></div>
+                    <p class="icontit">残值评估</p>
+                  </el-col>
+                </el-row>
+              </el-col>
+              <el-col>
+                <img style="border-radius:22px;" src="../assets/img/cs-basicEduS-5.jpg" alt="">
+              </el-col>
+            </el-row>
+          </div>
+          <h2 class="tit">回收模式</h2>
+          <p class="tit1">针对个人</p>
+          <p class="tit1">针对机构</p>
+        </div>
       </div>
-      <h1 class="tit" style="color: #E9612A;">设备回收</h1>
+      
       
     </div>
     <!-- part3 -->
@@ -308,6 +343,10 @@ export default {
          .img{
            border-radius: 22px;
             overflow: hidden;
+            img{
+              float: left;
+            }
+            box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
          }
          p{
             font-size: 36px;
@@ -318,6 +357,7 @@ export default {
          }
        }
        .item-4{
+         
          .part1{
            margin: 85px 20px 44px 90px;
          }
@@ -327,6 +367,7 @@ export default {
            overflow: hidden;
            text-align: center;
            height: 620px;
+           box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
          }
          .part2{
            padding: 85px 75px 0 75px;
@@ -338,6 +379,26 @@ export default {
             text-align: center;
             margin: 87px 0 48px 0;
            }
+         }
+       }
+       .item-5{
+         background: #FFFFFF;
+         border-radius: 22px;
+         padding: 74px 0 78px 0;
+         text-align: center;
+         .tit{
+            font-size: 32px;
+            font-weight: 400;
+            color: #E9612A;
+            line-height: 38px;
+            margin: 94px 0 38px 0;
+         }
+         .tit1{
+            font-size: 24px;
+            font-weight: 600;
+            color: #000000;
+            line-height: 32px;
+            margin: 0 0 47px;
          }
        }
      }
