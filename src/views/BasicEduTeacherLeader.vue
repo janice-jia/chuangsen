@@ -189,7 +189,7 @@ export default {
               width: 680px;
           }
           .p4{
-              margin: 50px 0 63px 0;
+              margin: 50px auto 63px auto;
               font-size: 28px;
               color: #0071E3;
           }

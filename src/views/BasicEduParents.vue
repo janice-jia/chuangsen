@@ -22,7 +22,7 @@
             <h1>个人购买可享优惠。</h1>
             <p class="p1">个人教育优惠价格适用于在读及新录取的高校学生、为高校学生购买产品的家长、教师和教职员工。</p>
             <div class="button">
-              <a href="">开始选购 <span class="el-icon-arrow-right"></span></a>
+              <a href="https://mall.doublerise.com/Home/User/login">开始选购 <span class="el-icon-arrow-right"></span></a>
             </div>  
           </div>
         </div>

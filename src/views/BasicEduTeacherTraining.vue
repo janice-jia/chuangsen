@@ -21,7 +21,7 @@
           </el-col>
           <el-col :span="5">
             <div class="dz-item">
-              <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-2.png" alt=""></div>
+              <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-3.png" alt=""></div>
               <p>苹果编程课程指导</p>
             </div>
           </el-col>
@@ -32,7 +32,7 @@
             </div>
           </el-col>
         </el-row>
-        <a href="" class="more">点击了解 教育工作者个人购买优惠 <span class="el-icon-arrow-right"></span></a>
+        <a href="https://mall.doublerise.com/Home/User/login" class="more">点击了解 教育工作者个人购买优惠 <span class="el-icon-arrow-right"></span></a>
       </div>
     </div>
     <!-- 学习工具 -->

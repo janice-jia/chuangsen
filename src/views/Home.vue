@@ -21,7 +21,9 @@
               <div class="img-tit">
                 <span class="tit">汉口学院苹果体验店</span>
                 <div class="bottom clearfix">
-                  <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
+                  <router-link to="BasicEduTeacherLeader">
+                    <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
+                  </router-link>
                 </div>
               </div>
             </el-card>
@@ -32,7 +34,9 @@
               <div class="img-tit">
                 <span class="tit">高等教育</span>
                 <div class="bottom clearfix">
-                  <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
+                  <router-link to="Protrain">
+                    <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
+                  </router-link>
                 </div>
               </div>
             </el-card>
@@ -47,7 +51,7 @@
           <div class="con">
             <div class="tit">即刻登入，享受校园优惠</div>
             <div class="button">
-              <a href="">开始选购 
+              <a href="http://www.mac4me.com/">开始选购 
                 <span class="el-icon-arrow-right"></span>
               </a>
             </div>
