@@ -35,7 +35,7 @@
                     <div class="con">
                         丰富的专辑课程，让教师可轻松帮助学生尽情投入到 app 设计与开发之中。 
                     </div>
-                    <a href="" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
+                    <a href="#" target="_blank" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </div>
                 <div style="clear:both"></div>
             </div>

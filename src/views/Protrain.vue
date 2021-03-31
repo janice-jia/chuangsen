@@ -114,7 +114,7 @@
 
     <div class="cs-Protrain-part5">
       <div class="container">
-        <el-row>
+        <el-row class="bgcol">
           <el-col :span="12">
             <template>
               <el-carousel :interval="5000" height="540px" arrow="always">
@@ -462,9 +462,12 @@ export default {
     background: #f5f5f7;
     padding: 80px 0;
     .container{
-      border-radius: 22px;
-      background: #DEEDF4;
-      overflow: hidden;
+      
+      .bgcol{
+        border-radius: 22px;
+        background: #DEEDF4;
+        overflow: hidden; 
+      }
       img{
         float: left;
       }

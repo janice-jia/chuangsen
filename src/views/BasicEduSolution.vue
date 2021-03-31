@@ -171,17 +171,191 @@
           <h2 class="tit">回收模式</h2>
           <p class="tit1">针对个人</p>
           <div class="part2">
-            <el-row type="flex" justify="space-between"></el-row>
+            <el-row type="flex" justify="space-between">
+              <!-- 线上下单 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-20.png" alt=""></div>
+                <p class="icontit">线上下单</p>
+              </el-col>
+              <el-col style="width: 118px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 预约上门 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-21.png" alt=""></div>
+                <p class="icontit">预约上门</p>
+              </el-col>
+              <el-col style="width: 118px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 当面质检 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-22.png" alt=""></div>
+                <p class="icontit">当面质检</p>
+              </el-col>
+              <el-col style="width: 118px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 秒拿钱 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-23.png" alt=""></div>
+                <p class="icontit">秒拿钱</p>
+              </el-col>
+            </el-row>
+            <div style="clear:both"></div>
           </div>
           <p class="tit1">针对机构</p>
+          <div class="part3">
+            <el-row type="flex" justify="space-between">
+              <!-- 收集回收信息 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-24.png" alt=""></div>
+                <p class="icontit">收集回收信息</p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 上门检查设备 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-25.png" alt=""></div>
+                <p class="icontit">上门检查设备</p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 报价 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-26.png" alt=""></div>
+                <p class="icontit">报价</p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 客户确认 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-27.png" alt=""></div>
+                <p class="icontit">客户确认</p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 签订协议 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-28.png" alt=""></div>
+                <p class="icontit">签订协议</p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 支付客户款项并开票 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-29.png" alt=""></div>
+                <p class="icontit" style="position: relative;">
+                  <span style="position: absolute;left:-30px;width:200px">支付客户款项并开票</span>
+                </p>
+              </el-col>
+              <el-col style="width: 50px;">
+                <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
+              </el-col>
+              <!-- 取回设备 -->
+              <el-col>
+                <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-30.png" alt=""></div>
+                <p class="icontit">取回设备</p>
+              </el-col>
+            </el-row>
+            <div style="clear:both"></div>
+          </div>
+          <p class="mf">免费上门评估设备残值；</p>
+          <p class="mf">设备回收残值报价时效：7天（如未在7天内完成，需重新报价）；</p>
         </div>
+        
       </div>
       
       
     </div>
     <!-- part3 -->
     <div class="cs-baseEduS-part3">
-      <div class="container"></div>
+      <div class="container">
+        <h2>项目团队</h2>
+        <h3>Lifecycle Service</h3>
+        <p class="p1">Professional Management Team</p>
+        <img class="img" src="../assets/img/icon-basicEduS-31.png" alt="">
+        <div class="item-con">
+          <!-- 部署团队 -->
+          <el-row type="flex" justify="space-between">
+            <el-col>
+              <div class="item-conbox box1">
+                <div class="titd">部署团队</div>
+                <div class="con">
+                  <p>Apple ID 创建</p>
+                  <p>用户信息收集</p>
+                  <p>设备信息收集</p>
+                  <p>4G 卡安装</p>
+                  <p>再次封装</p>
+                  <p>签收单管理</p>
+                  <p>库存管理</p>
+                </div>
+              </div>
+            </el-col>
+            <el-col>
+              <div class="item-conbox box2">
+                <div class="titd">部署团队</div>
+                <div class="con">
+                  <p>Apple ID 创建</p>
+                  <p>用户信息收集</p>
+                  <p>设备信息收集</p>
+                  <p>4G 卡安装</p>
+                  <p>再次封装</p>
+                  <p>签收单管理</p>
+                  <p>库存管理</p>
+                </div>
+              </div>
+            </el-col>
+            <el-col>
+              <div class="item-conbox box3">
+                <div class="titd">部署团队</div>
+                <div class="con">
+                  <p>Apple ID 创建</p>
+                  <p>用户信息收集</p>
+                  <p>设备信息收集</p>
+                  <p>4G 卡安装</p>
+                  <p>再次封装</p>
+                  <p>签收单管理</p>
+                  <p>库存管理</p>
+                </div>
+              </div>
+            </el-col>
+            <el-col>
+              <div class="item-conbox box4">
+                <div class="titd">部署团队</div>
+                <div class="con">
+                  <p>Apple ID 创建</p>
+                  <p>用户信息收集</p>
+                  <p>设备信息收集</p>
+                  <p>4G 卡安装</p>
+                  <p>再次封装</p>
+                  <p>签收单管理</p>
+                  <p>库存管理</p>
+                </div>
+              </div>
+            </el-col>
+            <el-col>
+              <div class="item-conbox box5">
+                <div class="titd">部署团队</div>
+                <div class="con">
+                  <p>Apple ID 创建</p>
+                  <p>用户信息收集</p>
+                  <p>设备信息收集</p>
+                  <p>4G 卡安装</p>
+                  <p>再次封装</p>
+                  <p>签收单管理</p>
+                  <p>库存管理</p>
+                </div>
+              </div>
+            </el-col>
+          </el-row>
+        </div>
+      </div>
     </div>
     <!-- part4 -->
     <div class="cs-baseEduS-part4">
@@ -238,6 +412,14 @@ export default {
     line-height: 32px;
   }
 
+  .iconright{
+    width: 118px;
+    height: 100px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+  }
+
    .cs-baseEduS-part1{
      position: relative;
      height: 1120px;
@@ -286,6 +468,13 @@ export default {
         text-align: center;
      }
      .container{
+       .mf{
+          font-size: 22px;
+          font-weight: 400;
+          color: #333333;
+          line-height: 38px;
+          text-align: center;
+       }
        .item-1{
          background: #FFFFFF;
          border-radius: 22px;
@@ -333,13 +522,6 @@ export default {
          border-radius: 22px;
          padding: 71px 115px;
          text-align: center;
-         .iconright{
-           width: 118px;
-           height: 100px;
-           display: table-cell;
-           vertical-align: middle;
-           text-align: center;
-         }
        }
        .item-3{
          margin-top: 58px;
@@ -389,6 +571,7 @@ export default {
          border-radius: 22px;
          padding: 74px 0 78px 0;
          text-align: center;
+         margin-bottom: 53px;
          .tit{
             font-size: 32px;
             font-weight: 400;
@@ -403,12 +586,80 @@ export default {
             line-height: 32px;
             margin: 0 0 47px;
          }
+         .part2{
+           margin: 0 222px 73px 222px;
+         }
+         .part3{
+           margin: 0 40px 79px 40px;
+           .iconright{
+            width: 50px;
+           }
+         }
        }
      }
    }
    
    .cs-baseEduS-part3{
-     .container{}
+     background: #FFFFFF;
+     .container{
+       h2{
+          font-size: 42px;
+          font-weight: 600;
+          color: #000000;
+          line-height: 38px;
+          text-align: center;
+          padding: 75px 0 61px 0;
+       }
+       h3{
+          font-size: 32px;
+          font-weight: 600;
+          color: #000000;
+          line-height: 30px;
+          text-align: center;
+       }
+       .p1{
+          font-size: 24px;
+          font-weight: 400;
+          color: #333333;
+          line-height: 30px;
+          text-align: center;
+          margin: 14px 0 53px 0;
+       }
+       .img{
+         margin-bottom: 15px;
+         margin-left: 45px;
+       }
+       .item-con{
+          padding: 0 50px 74px 50px;
+          .item-conbox{
+            width: 200px;
+            height: 360px;
+            border-radius: 22px;
+            overflow: hidden;
+            padding: 35px 0 0 0;
+          }
+          .titd{
+            font-size: 24px;
+            font-weight: 600;
+            color: #000000;
+            line-height: 30px;
+            text-align: left;
+            padding: 0 0 20px 38px;
+          }
+          p{
+            font-size: 20px;
+            font-weight: 400;
+            color: #333333;
+            line-height: 36px;
+            text-align: center;
+          }
+       }
+       .box1{background: #CFE5F8;}
+       .box2{background: #E1DFF6;}
+       .box3{background: #FFDF86;}
+       .box4{background: #D9F0E9;}
+       .box5{background: #F1DEE6;}
+     }
    }
    .cs-baseEduS-part4{
      .container{}
