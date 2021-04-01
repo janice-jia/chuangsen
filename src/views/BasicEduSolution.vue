@@ -359,15 +359,148 @@
     </div>
     <!-- part4 -->
     <div class="cs-baseEduS-part4">
-      <div class="container"></div>
+      <div class="container">
+        <h1>服务网络</h1>
+        <div>
+          <el-row>
+            <el-col :span="14" style="padding-right:50px">
+              <img class="img" src="../assets/img/icon-basicEduS-32.png" alt="">
+            </el-col>
+            <el-col :span="10">
+              <p class="p1"><span class="font32">第二工作日</span><span class="font24">上门服务</span></p>
+              <p class="p2"><span class="font24">覆盖全国</span><span class="font42">500+</span><span class="font24">个城市</span></p>
+              <el-row>
+                <el-col :span="12">
+                  <p class="p3">平均响应时间</p>
+                  <p class="p4"><span class="font52">< 2</span> <span class="font24">个工作日</span></p>
+                </el-col>
+                <el-col :span="12">
+                  <p class="p3">平均维修时间</p>
+                  <p class="p4"><span class="font52">< 5</span> <span class="font24">个工作日</span></p>
+                </el-col>
+
+                <el-col :span="12">
+                  <p class="p3">用户投诉率</p>
+                  <p class="p4"><span class="font52" style="padding-right:0">< 0.5</span> <span class="font24">%</span></p>
+                </el-col>
+                <el-col :span="12">
+                  <p class="p3">用户投诉率</p>
+                  <p class="p4"><span class="font52" style="padding-right:0">> 95</span> <span class="font24">%</span></p>
+                </el-col>
+
+                <el-col :span="12">
+                  <p class="p3">用户满意度</p>
+                  <p class="p4"><span class="font52" style="padding-right:0">> 95</span> <span class="font24">%</span></p>
+                </el-col>
+                <el-col :span="12">
+                  
+                </el-col>
+              </el-row>
+            </el-col>
+          </el-row>
+        </div>
+      </div>
     </div>
     <!-- part5 -->
     <div class="cs-baseEduS-part5">
-      <div class="container"></div>
+      <img class="img" src="../assets/img/cs-basicEduS-6.jpg" alt="">
+      <div class="container">
+        <div class="middle">
+          <h1>Exclusive Service Platform for Educator</h1>
+          <div class="button">
+            <a href="https://esp.doublerise.com/">了解更多 
+              <span class="el-icon-arrow-right"></span>
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
     <!-- part6 -->
     <div class="cs-baseEduS-part6">
-      <div class="container"></div>
+      <div class="container">
+        <el-row>
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-33.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">引导学校文化</p>
+                      <p class="p1 w1">随时查询设备状态，实时统计资产情况，为企业提供贯穿设备全生命周期的全方位体验。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-34.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">设备管理服务</p>
+                      <p class="p1 w2">设备激活、部署、更换及回收，通过 ESP 平台一键开单，过程实时跟踪，还可根据客户需求定制流程，是您工单流转的最佳帮手。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-35.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">远程诊断</p>
+                      <p class="p1 w1">在线远程为设备提供诊断服务，帮助企业随时了解设备健康状态，故障预排查。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-36.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">知识库及咨询服务 </p>
+                      <p class="p1 w2">提供丰富的知识库供企业查阅，及时更新常见问题。企业还可以在线互动咨询，平台第一时间为企业答疑解惑。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-37.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">维修申报 </p>
+                      <p class="p1 w1">Apple 全系列产品官方授权服务资质，优质专业的售后支持及服务，多种方式随需选择，线上预约。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+            <el-col :span="12">
+              <div class="item">
+                <el-row type="flex">
+                  <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-38.png" alt=""></div></el-col>
+                  <el-col>
+                    <div class="middle">
+                      <p class="tit1">行业应用解决方案 </p>
+                      <p class="p1 w2">提供移动化领域前沿解决方案以及行业成功案例，赋能企业移动化，助力企业 IT 创新发展。</p>
+                    </div>
+                  </el-col>
+                </el-row>
+              </div>
+            </el-col>
+        </el-row>
+      </div>
     </div>
   </div>
 </template>
@@ -662,13 +795,111 @@ export default {
      }
    }
    .cs-baseEduS-part4{
-     .container{}
+     background: #f5f5f7;
+     img{
+       max-width: 100%;
+     }
+     .container{
+       h1{
+          font-size: 42px;
+          font-weight: 600;
+          color: #000000;
+          line-height: 38px;
+          padding: 104px 0 139px 0;
+       }
+       p{
+          font-weight: 400;
+          color: #000000;
+       }
+       .p1 .font32{padding: 0 10px 0 0;}
+       .p2 .font42{padding: 0 10px 0 5px;}
+       .p3{font-size: 24px; margin:56px 0 0 0;}
+       .p4 .font52{padding: 0 15px 0 0;}
+       .font24{font-size: 24px;}
+       .font32{font-size: 32px;}
+       .font42{font-size: 42px;}
+       .font52{font-size: 42px;}
+     }
    }
    .cs-baseEduS-part5{
-     .container{}
+     position: relative;
+     height: 620px;
+     img{
+       max-height: 100%;
+     }
+     .container{
+       position: absolute;
+       left: 50%;
+       top: 0;
+       margin-left: -680px;
+       .middle{
+         display: table-cell;
+         vertical-align: middle;
+         height: 620px;
+         text-align: center;
+         width: 1360px;
+       }
+       h1{
+          font-size: 42px;
+          font-weight: 600;
+          color: #FFFFFF;
+          line-height: 38px;
+          text-align: center;
+        }
+        .button{
+          width: 240px;
+          height: 76px;
+          background: #0071E3;
+          border-radius: 38px;
+          display: inline-block;
+          margin:55px auto 0 auto;
+          a{
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            line-height: 76px;
+            font-size: 28px;
+            font-weight: 400;
+            color: #FFFFFF;
+          }
+        }
+     }
    }
    .cs-baseEduS-part6{
-     .container{}
+     background: #FFFFFF;
+     padding-top: 131px;
+     .container{
+       .item{
+         margin-bottom: 76px;
+         .middle{
+           height: 170px;
+           display: table-cell;
+           vertical-align: middle;
+           padding-left: 20px;
+         }
+         .tit1{
+            font-size: 32px;
+            font-weight: 600;
+            color: #000000;
+            line-height: 30px;
+            margin-bottom: 36px;
+         }
+         .p1{
+            font-size: 24px;
+            font-weight: 400;
+            color: #000000;
+            line-height: 38px;
+            width: 369px;
+         }
+         .w1{
+           width: 369px;
+         }
+         .w2{
+           width: 470px;
+         }
+       }
+     }
    }
 }
 </style>

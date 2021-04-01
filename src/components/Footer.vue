@@ -25,7 +25,7 @@
        </el-row>
        </div>
       <p class="Copyright">
-        <span>Copyright © 2021 xxxxxxxx. 保留所有权利。</span>
+        <a href="https://beian.miit.gov.cn/"><span>苏ICP备2021010860号-1 保留所有权利。</span></a>
       </p>
     </div>
   </div>

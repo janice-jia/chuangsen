@@ -19,7 +19,7 @@
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-home-2.jpg" class="image">
               <div class="img-tit">
-                <span class="tit">汉口学院苹果体验店</span>
+                <span class="tit">基础教育</span>
                 <div class="bottom clearfix">
                   <router-link to="BasicEduTeacherLeader">
                     <el-button type="text" class="button">进一步了解 <span class="el-icon-arrow-right"></span></el-button>
