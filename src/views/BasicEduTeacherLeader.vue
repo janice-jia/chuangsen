@@ -119,12 +119,12 @@
                 <el-col :span="10">
                     <img src="../assets/img/teacherLead-1.jpg" alt="">
                     <p class="p2">《领导力要素》</p>
-                    <a href="" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
+                    <a href="/pdf/领导力要素.ibooks" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </el-col>
                 <el-col :span="10">
                     <img src="../assets/img/teacherLead-2.jpg" alt="">
                     <p class="p2">《推动学校创新》</p>
-                    <a href="" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
+                    <a href="/pdf/推动学校创新.ibooks" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </el-col>
             </el-row>
         </div>

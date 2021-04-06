@@ -9,3 +9,5 @@ package-lock.json
 .babelrc
 /.babelrc
 .DS_Store
+public/pdf/
+public/pdf/*

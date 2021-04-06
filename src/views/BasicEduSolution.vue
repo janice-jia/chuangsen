@@ -299,57 +299,55 @@
             </el-col>
             <el-col>
               <div class="item-conbox box2">
-                <div class="titd">部署团队</div>
+                <div class="titd">内部运维团队</div>
                 <div class="con">
-                  <p>Apple ID 创建</p>
-                  <p>用户信息收集</p>
-                  <p>设备信息收集</p>
-                  <p>4G 卡安装</p>
-                  <p>再次封装</p>
-                  <p>签收单管理</p>
-                  <p>库存管理</p>
+                    <p>全国 Office</p>
+                    <p>设备部署</p>
+                    <p>设备发放</p>
+                    <p>设备回收</p>
+                    <p>设备检测</p>
+                    <p>数据擦除</p>
                 </div>
               </div>
             </el-col>
             <el-col>
               <div class="item-conbox box3">
-                <div class="titd">部署团队</div>
+                <div class="titd">现场支持团队</div>
                 <div class="con">
-                  <p>Apple ID 创建</p>
-                  <p>用户信息收集</p>
-                  <p>设备信息收集</p>
-                  <p>4G 卡安装</p>
-                  <p>再次封装</p>
-                  <p>签收单管理</p>
-                  <p>库存管理</p>
+                    <p>现场技术支持</p>
+                    <p>网络调试</p>
+                    <p>设备发放</p>
+                    <p>设备回收</p>
+                    <p>设备检测</p>
+                    <p>数据迁移</p>
+                    <p>数据擦除</p>
                 </div>
               </div>
             </el-col>
             <el-col>
               <div class="item-conbox box4">
-                <div class="titd">部署团队</div>
+                <div class="titd">网点服务团队</div>
                 <div class="con">
-                  <p>Apple ID 创建</p>
-                  <p>用户信息收集</p>
-                  <p>设备信息收集</p>
-                  <p>4G 卡安装</p>
-                  <p>再次封装</p>
-                  <p>签收单管理</p>
-                  <p>库存管理</p>
+                    <p>现场技术支持</p>
+                    <p>设备发放</p>
+                    <p>设备回收</p>
+                    <p>设备检测</p>
+                    <p>数据迁移</p>
+                    <p>数据擦除</p>
+                    <p>用户培训</p>
                 </div>
               </div>
             </el-col>
             <el-col>
               <div class="item-conbox box5">
-                <div class="titd">部署团队</div>
+                <div class="titd">热线团队</div>
                 <div class="con">
-                  <p>Apple ID 创建</p>
-                  <p>用户信息收集</p>
-                  <p>设备信息收集</p>
-                  <p>4G 卡安装</p>
-                  <p>再次封装</p>
-                  <p>签收单管理</p>
-                  <p>库存管理</p>
+                    <p>热线技术支持</p>
+                    <p>服务单管理</p>
+                    <p>预约设备发放</p>
+                    <p>预约设备回收</p>
+                    <p>常见问题反馈</p>
+                    <p>报告提交</p>
                 </div>
               </div>
             </el-col>
@@ -384,7 +382,7 @@
                   <p class="p4"><span class="font52" style="padding-right:0">< 0.5</span> <span class="font24">%</span></p>
                 </el-col>
                 <el-col :span="12">
-                  <p class="p3">用户投诉率</p>
+                  <p class="p3">准时上门率</p>
                   <p class="p4"><span class="font52" style="padding-right:0">> 95</span> <span class="font24">%</span></p>
                 </el-col>
 
@@ -777,7 +775,8 @@ export default {
             color: #000000;
             line-height: 30px;
             text-align: left;
-            padding: 0 0 20px 38px;
+            padding: 0 0 20px 0;
+            text-align: center;
           }
           p{
             font-size: 20px;

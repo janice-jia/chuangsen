@@ -40,7 +40,7 @@
                   <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
                 </div>
                 <div class="tel">
-                    <p class="name">丁小轩</p>
+                    <p class="name" style="padding-right: 40px; ">丁小轩</p>
                     <p class="telnum">185 0271 1021</p>
                 </div>
               </div>
@@ -143,7 +143,7 @@ export default {
                 color: #000000;
                 text-align: left;
                 padding-left: 105px;
-                background: url(../assets/img/icon-address.png) no-repeat 65px 0;
+                background: url(../assets/img/icon-address1.png) no-repeat 65px 3px;
             }
             .address-con{
                 padding: 15px 60px 15px 105px;

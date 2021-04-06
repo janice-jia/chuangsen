@@ -51,7 +51,7 @@
           <div class="con">
             <div class="tit">即刻登入，享受校园优惠</div>
             <div class="button">
-              <a href="http://www.mac4me.com/">开始选购 
+              <a href="http://www.mac4me.com/" target="_blank">开始选购
                 <span class="el-icon-arrow-right"></span>
               </a>
             </div>

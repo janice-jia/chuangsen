@@ -4,10 +4,10 @@
       <div class="container">
         <h1>iOS 俱乐部</h1>
         <p class="tit">增强教与学联动，走进高校内部，<br>激发更多创造力实践。</p>
-        <div class="item-1 item-rel">
-          <img src="../assets/img/cs-iosclub-1.jpg" alt="">
-          <p>ios 俱乐部活动-湖北汽车学院</p>
-        </div>
+        <!--<div class="item-1 item-rel">-->
+          <!--<img src="../assets/img/cs-iosclub-1.jpg" alt="">-->
+          <!--<p>ios 俱乐部活动-湖北汽车学院</p>-->
+        <!--</div>-->
 
         <div class="item-2">
           <div class="item-l item-rel">
@@ -116,6 +116,7 @@ export default {
      }
    }
    .item-2{
+       margin-top: 57px;
      img{
        max-height: 100%;
        max-width: 100%;
