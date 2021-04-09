@@ -32,7 +32,7 @@
             </div>
           </el-col>
         </el-row>
-        <a href="https://mall.doublerise.com/Home/User/login" class="more">点击了解 教育工作者个人购买优惠 <span class="el-icon-arrow-right"></span></a>
+        <a href="http://mall.jschuangsen.cn/Home/User/login" class="more">点击了解 教育工作者个人购买优惠 <span class="el-icon-arrow-right"></span></a>
       </div>
     </div>
     <!-- 学习工具 -->
