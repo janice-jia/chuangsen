@@ -5,7 +5,7 @@
       <div class="container">
         <div class="tit">Apple 与教育。</div>
         <div class="cs-home-con">
-          <p class="subtitle">“教育是深深根植于苹果的 DNA。” </p>
+          <p class="subtitle">“教育是深深根植于 Apple 的 DNA。” </p>
           <p class="con">Apple 致力于打造高科技与创造力的教育生态系统，通过功能强大的硬件产品与精彩纷呈的 APP 软件以及丰富多样的学习资源，将科技创新带进课堂，为学校、老师、家长和学生，提供高效全面的教学服务。</p>
           <p class="con">创森智云作为 Apple 授权的教育行业经销商，携手 Apple 为我国各类中小学校、高等院校提供客制化的教育解决方案和全生命周期服务。</p>
         </div>

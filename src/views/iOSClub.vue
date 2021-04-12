@@ -12,18 +12,18 @@
         <div class="item-2">
           <div class="item-l item-rel">
             <img src="../assets/img/cs-iosclub-2.jpg" alt="">
-            <p>ios 俱乐部活动-武汉大学</p>
+            <p>iOS 俱乐部活动-武汉大学</p>
           </div>
           <div class="item-r item-rel">
             <img src="../assets/img/cs-iosclub-3.jpg" alt="">
-            <p>ios 俱乐部活动-湖北科技大学</p>
+            <p>iOS 俱乐部活动-湖北科技大学</p>
           </div>
           <div style="clear:both"></div>
         </div>
 
         <h1>iOS 俱乐部活动</h1>
         <p class="tit">中国高校计算机大赛—移动应用创新赛</p>
-        <p class="con">由苹果公司和浙江大学发起的原创性应用程序（App）的开发比赛，参赛 App 基于 iOS 系统设计开发，并须在苹果公司的产品组合上顺畅运行。鼓励参赛队伍下载使用 Swift 语言进行开发。</p>
+        <p class="con">由Apple公司和浙江大学发起的原创性应用程序（App）的开发比赛，参赛 App 基于 iOS 系统设计开发，并须在Apple公司的产品组合上顺畅运行。鼓励参赛队伍下载使用 Swift 语言进行开发。</p>
         <p class="con">参赛作品主题涉及应用领域及社会关注的热点难点问题，如能源、健康医疗、环保、养老、智慧交通、智慧城市、智慧物流、与社会创新相关的物联网、食品安全、与社会服务相关的大数据/云服务等。</p>
       
         <div class="item-3">

@@ -4,7 +4,7 @@
     <div class="cs-BasEduTeaTrain-part1">
       <div class="container">
         <h1>教师培训</h1>
-        <p class="desc">创森与具有苹果教学经验的教育工作者和优秀的领导团队合作，以创新为重点，为教师提供技术培训、指导和支持，从而帮助教师激发学生兴趣，让学生快乐学习。</p>
+        <p class="desc">创森与具有 Apple 教学经验的教育工作者和优秀的领导团队合作，以创新为重点，为教师提供技术培训、指导和支持，从而帮助教师激发学生兴趣，让学生快乐学习。</p>
         <p class="dingzhi">定制教师培养课程：</p>
         <el-row type="flex" justify="center">
           <el-col :span="6">
@@ -22,7 +22,7 @@
           <el-col :span="5">
             <div class="dz-item">
               <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-3.png" alt=""></div>
-              <p>苹果编程课程指导</p>
+              <p>Apple 编程课程指导</p>
             </div>
           </el-col>
           <el-col :span="5">

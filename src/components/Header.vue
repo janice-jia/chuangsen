@@ -5,7 +5,7 @@
     <el-row>
         <el-col :span="6">
           <div class="logo">
-            <router-link to="home"><img src="../assets/logo.png" alt=""></router-link>
+            <router-link to="home"><img src="../assets/logo-small.png" alt=""></router-link>
           </div>
         </el-col>
         <el-col :span="14">
@@ -40,9 +40,13 @@
           </el-row>
         </el-col>
         <el-col :span="4">
-          <div class="dealers">
-            <img src="../assets/dealers.png" alt="">
-          </div>
+          <el-row type="flex" class="row-bg" justify="end">
+            <div class="dealers">
+                <div class="middle">
+                    <img src="../assets/dealers-small.png" alt="">
+                </div>
+              </div>
+          </el-row>
         </el-col>
     </el-row>
     <div class="LanguageSelection">

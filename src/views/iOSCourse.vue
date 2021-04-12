@@ -6,7 +6,7 @@
           <h1>iOS 课程</h1>
           <h2>AATP 介绍</h2>
           <p class="p1">AATP（Apple Authorized Training Provider）</p>
-          <p class="p2">苹果和 RTP 是专门针对高职院校的教学需求，对接岗位所需所开发出的适合职业教育的课程体系。</p>
+          <p class="p2">Apple 和 RTP 是专门针对高职院校的教学需求，对接岗位所需所开发出的适合职业教育的课程体系。</p>
         </div>
         
         <div class="item-2">

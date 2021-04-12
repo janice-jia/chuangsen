@@ -10,8 +10,8 @@
             <el-col :span="12">
               <div class="con">
                 <img src="../assets/img/icon-exper-1.png" alt="">
-                <h2>汉口学院苹果体验店</h2>
-                <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨苹果体验店</p>
+                <h2>汉口学院Apple体验店</h2>
+                <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨Apple体验店</p>
               </div>
             </el-col>
             <el-col :span="12">
@@ -32,7 +32,7 @@
             <el-col :span="12">
               <div class="con">
                 <img src="../assets/img/icon-exper-2.png" alt="">
-                <h2>武汉大学苹果体验店</h2>
+                <h2>武汉大学Apple体验店</h2>
                 <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
               </div>
             </el-col>
@@ -64,8 +64,8 @@
               </div>
               <div class="con">
                 <img src="../assets/img/icon-exper-3.png" alt="">
-                <p class="p1">汉口学院苹果体验店</p>
-                <p class="p2">湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨苹果体验店</p>
+                <p class="p1">汉口学院 Apple 体验店</p>
+                <p class="p2">湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨 Apple 体验店</p>
               </div>
             </div>
           </el-col>
@@ -76,7 +76,7 @@
               </div>
               <div class="con">
                 <img src="../assets/img/icon-exper-4.png" alt="">
-                <p class="p1">武汉大学苹果体验店</p>
+                <p class="p1">武汉大学 Apple 体验店</p>
                 <p class="p2">湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室 </p>
               </div>
             </div>
@@ -91,7 +91,7 @@
               </div>
               <div class="con">
                 <img src="../assets/img/icon-exper-5.png" alt="">
-                <p class="p1">长春工业大学苹果体验店</p>
+                <p class="p1">长春工业大学 Apple 体验店</p>
                 <p class="p2">吉林省长春市延安大街2055号 长春工业大学南湖校区</p>
               </div>
             </div>
@@ -103,7 +103,7 @@
               </div>
               <div class="con">
                 <img src="../assets/img/icon-exper-6.png" alt="">
-                <p class="p1">天津科技大学苹果体验店</p>
+                <p class="p1">天津科技大学 Apple 体验店</p>
                 <p class="p2">天津经济技术开发区第十三大街 天津科技大学滨海新区9号</p>
               </div>
             </div>

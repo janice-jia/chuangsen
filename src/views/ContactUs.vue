@@ -20,9 +20,9 @@
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-2.jpg" class="image">
               <div class="address-desc">
-                <p class="address">汉口学院苹果体验店</p>
+                <p class="address">汉口学院 Apple 体验店</p>
                 <div class="address-con">
-                  <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨苹果体验店</p>
+                  <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨Apple体验店</p>
                 </div>
                 <div class="tel">
                     <p class="name">许璐</p>
@@ -35,7 +35,7 @@
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-3.jpg" class="image">
               <div class="address-desc">
-                <p class="address">武汉大学苹果体验店</p>
+                <p class="address">武汉大学 Apple 体验店</p>
                 <div class="address-con">
                   <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
                 </div>

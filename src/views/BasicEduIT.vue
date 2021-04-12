@@ -33,7 +33,7 @@
       <div class="BasicEduIT-part2">
         <div class="container">
           <h1>MDM</h1>
-          <p class="p1">苹果硬件产品和教育相关 APP 软件 ，通过 Mobility Security & Control Solution 来满足教育客户的需求，也为客户打造出真正的未来科技校。</p>
+          <p class="p1">Apple 硬件产品和教育相关 APP 软件 ，通过 Mobility Security & Control Solution 来满足教育客户的需求，也为客户打造出真正的未来科技校。</p>
           <div class="item-1">
             <img src="../assets/img/cs-baseIt-1.jpg" alt="">
             <div class="con">
