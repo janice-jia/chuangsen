@@ -49,11 +49,11 @@
           </el-row>
         </el-col>
     </el-row>
-    <div class="LanguageSelection">
+    <!-- <div class="LanguageSelection">
       <span class="hover">CN</span>
       <span class="interval">|</span>
       <span>EN</span>
-    </div>
+    </div> -->
     </div>
 </div>
      

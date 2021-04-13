@@ -5,7 +5,7 @@
         <div class="con">
             <div class="item1">
                 <p class="more">更多业务咨询</p>
-                <p class="url">wangrong@doublerise.com</p>
+                <p class="url">edu@jschuangsen.cn</p>
             </div>
             <div class="item2">
                 <p class="more">关注我们</p>
@@ -20,13 +20,13 @@
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-2.jpg" class="image">
               <div class="address-desc">
-                <p class="address">汉口学院 Apple 体验店</p>
+                <p class="address">汉口学院 Apple 校园体验中心</p>
                 <div class="address-con">
                   <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨Apple体验店</p>
                 </div>
                 <div class="tel">
-                    <p class="name">许璐</p>
-                    <p class="telnum">136 3607 0936</p>
+                    <p class="name">鲍清</p>
+                    <p class="telnum">151 7232 6007</p>
                 </div>
               </div>
             </el-card>
@@ -35,13 +35,13 @@
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-3.jpg" class="image">
               <div class="address-desc">
-                <p class="address">武汉大学 Apple 体验店</p>
+                <p class="address">武汉大学 Apple 校园体验中心</p>
                 <div class="address-con">
                   <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
                 </div>
                 <div class="tel">
-                    <p class="name" style="padding-right: 40px; ">丁小轩</p>
-                    <p class="telnum">185 0271 1021</p>
+                    <p class="name" style="padding-right: 40px; ">鲍清</p>
+                    <p class="telnum">151 7232 6007</p>
                 </div>
               </div>
             </el-card>
