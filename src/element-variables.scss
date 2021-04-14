@@ -115,9 +115,23 @@ p.con{
         font-size: 20px;
         width: 572px;
         font-weight: 400;
+        ul.el-menu{
+            &:first-child{
+                float: right;
+            }
+        }
         .el-menu{
             background: #000;
             border-bottom: none;
+        }
+        .el-menu--horizontal > .el-menu-item{
+            &:last-child{
+                padding-right: 0;
+            }
+            a{
+                display: inline-block;
+                float: left;
+            }
         }
         .el-menu--horizontal > .el-menu-item,
         .el-menu--horizontal > .el-submenu > .el-submenu__title{
