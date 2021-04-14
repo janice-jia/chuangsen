@@ -5,7 +5,9 @@
     <el-row>
         <el-col :span="8">
           <div class="logo">
-            <router-link to="home"><img src="../assets/logo-apple.png" alt=""></router-link>
+            <router-link to="home">
+              <!-- <img src="../assets/logo-apple.png" alt=""> -->
+            </router-link>
           </div>
         </el-col>
         <el-col :span="16">
