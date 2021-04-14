@@ -113,7 +113,7 @@ p.con{
     // }
     .pcMenu{
         font-size: 20px;
-        width: 572px;
+        width: 100%;
         font-weight: 400;
         ul.el-menu{
             &:first-child{
@@ -138,8 +138,8 @@ p.con{
             height: 110px;
             line-height: 110px;
             font-size: 20px;
-            color: #FFFFFF;
-            padding: 0 10px;
+            color: #cecdcd;
+            padding: 0 32px;
             &:focus{
                 background: none;
             }
@@ -155,6 +155,10 @@ p.con{
         .el-menu--horizontal > .el-menu-item.is-active,
         .el-menu--horizontal > .el-menu-item.is-active .el-submenu__title{
             border-bottom: 1px solid #FFFFFF;
+            color: #FFFFFF;
+            a{
+                color: #FFFFFF;
+            }
         }
         .el-menu--horizontal > .el-submenu .el-submenu__icon-arrow{
             display: none;
