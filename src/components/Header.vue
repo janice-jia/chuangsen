@@ -3,13 +3,13 @@
 <div class="cs-header">
     <div class="container"> 
     <el-row>
-        <el-col :span="6">
+        <el-col :span="8">
           <div class="logo">
-            <router-link to="home"><img src="../assets/logo-small.png" alt=""></router-link>
+            <router-link to="home"><img src="../assets/logo-apple.png" alt=""></router-link>
           </div>
         </el-col>
-        <el-col :span="14">
-          <el-row type="flex" class="row-bg" justify="center">
+        <el-col :span="16">
+          <el-row type="flex" class="row-bg" justify="end">
             <!-- pc菜单 -->
             <div class="pcMenu">
               <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
@@ -39,15 +39,15 @@
             </div>
           </el-row>
         </el-col>
-        <el-col :span="4">
-          <el-row type="flex" class="row-bg" justify="end">
-            <div class="dealers">
-                <div class="middle">
-                    <img src="../assets/dealers-small.png" alt="">
-                </div>
-              </div>
-          </el-row>
-        </el-col>
+        <!--<el-col :span="4">-->
+          <!--<el-row type="flex" class="row-bg" justify="end">-->
+            <!--<div class="dealers">-->
+                <!--<div class="middle">-->
+                    <!--<img src="../assets/dealers-small.png" alt="">-->
+                <!--</div>-->
+              <!--</div>-->
+          <!--</el-row>-->
+        <!--</el-col>-->
     </el-row>
     <!-- <div class="LanguageSelection">
       <span class="hover">CN</span>
