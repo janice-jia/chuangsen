@@ -2,7 +2,7 @@
   <div class="BasicEduParents">
       <div class="BasicEduParents-part1">
         <div class="container">
-          <h1>家长</h1>
+          <!-- <h1>家长</h1> -->
           <p class="p1">AppleCare 为你提供</p>
           <p class="p2">长期的技术支持与服务。<br>获得更多服务和支持。为你的 Mac 选购 AppleCare+ 服务计划，享受教育优惠价格。</p>
           <img src="../assets/img/icon-basePar-1.png" alt="">
@@ -27,6 +27,12 @@
           </div>
         </div>
         <div style="clear:both"></div>
+      </div>
+
+      <div class="cs-page">
+        <router-link to="home" active-class="activeClass">首页</router-link>
+        <router-link to="BasicEduTeacherResource" active-class="activeClass">上一页</router-link>
+        <router-link to="BasicEduIT" active-class="activeClass">下一页</router-link>
       </div>
   </div>
 </template>
@@ -65,6 +71,7 @@ export default {
         font-weight: 600;
         color: #000000;
         line-height: 38px;
+        padding-top: 73px;
      }
      .p2{
         font-size: 24px;

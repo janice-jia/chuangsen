@@ -56,6 +56,12 @@
           <img src="../assets/img/teacherTrain-4.jpg" alt="">
       </div>
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="BasicEduTeacherLeader" active-class="activeClass">上一页</router-link>
+      <router-link to="BasicEduTeacherResource" active-class="activeClass">下一页</router-link>
+    </div>
   </div>
 </template>
 <script>

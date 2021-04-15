@@ -47,6 +47,10 @@
         <p class="conp">学校为学生提供最新的学习工具和教学资源。从小学一年级开始使用 Apple 平板电脑，三年级以上使用 Apple 笔记本电脑，并配有 Apple 一体机机房。学校全部采用 Apple 设备一对一教学，还专门成立了教育科技创新部门。我们和 Apple 公司一起配合学校的IT信息技术部和教育科技创新部门将创造精神和科技领域结合，帮助学生和教育工作者在一个多元化的全球环境中学生、教学、合作和创新。</p>
       </div>
     </div>
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="BasicEduSolution" active-class="activeClass">上一页</router-link>
+    </div>
   </div>
 </template>
 <script>

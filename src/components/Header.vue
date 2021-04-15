@@ -97,7 +97,12 @@ export default {
     handleSelect(v){
       this.activeIndex = v
     }
-  }
+  },
+  watch: {
+    $route() {
+      this.getRouterIndex();
+    }
+  },
 }
 </script>
 <style lang="scss">

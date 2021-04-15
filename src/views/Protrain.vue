@@ -158,6 +158,11 @@
         <p class="p2">RTC（区域教育培训中心）为了保证 RTC（区域教育培训中心）的培训质量和运营服务水准，我们会每半年对 RTC（区域教育培训中心）培训中心进行评估和考核。考核形式以书面考核为主，现场评估为辅。每次评估审核，RTC（区域教育培训中心）需要向 Apple 汇报当年运营报告，包括场次数量和学员数量等。</p>
       </div>
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="iOSCourse" active-class="activeClass">下一页</router-link>
+    </div>
   </div>
 </template>
 <script>

@@ -81,6 +81,12 @@
             </div>
       </div>
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="BasicEduTeacherTraining" active-class="activeClass">上一页</router-link>
+      <router-link to="BasicEduParents" active-class="activeClass">下一页</router-link>
+    </div>
   </div>
 </template>
 <script>
