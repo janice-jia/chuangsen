@@ -169,7 +169,7 @@
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-2.jpg" alt=""></div></el-col>
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-3.jpg" alt=""></div></el-col>
         </el-row>
-        <el-row :gutter="60" style="margin-bottom: 40px">
+        <el-row :gutter="60">
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-4.jpg" alt=""></div></el-col>
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-5.jpg" alt=""></div></el-col>
         </el-row>

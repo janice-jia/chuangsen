@@ -35,13 +35,13 @@
         <div class="item-4">
           <el-row :gutter="60">
             <el-col :span="12">
-              <div class="box">
+              <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-5.jpg" alt="">
                 <p>2019年10.25-27日，第四届中国高校移动应用创新赛决赛，武汉大学的参赛作品《Hello Slide》喜获一等奖。</p>
               </div>
             </el-col>
             <el-col :span="12">
-              <div class="box">
+              <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-6.jpg" alt="">
                 <p>2020第五届中国高校计算机大赛-移动应用创新赛，武汉大学的 C4 团队所开发的《Comive》获得了这次比赛的二等奖。</p>
               </div>
