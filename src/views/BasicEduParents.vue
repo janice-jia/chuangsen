@@ -19,8 +19,8 @@
         <img src="../assets/img/cs-basePar-1.jpg" alt="">
         <div class="con">
           <div class="conbox">
-            <h1>个人购买可享优惠。</h1>
-            <p class="p1">个人教育优惠价格适用于在读及新录取的高校学生、为高校学生购买产品的家长、教师和教职员工。</p>
+            <h1>iOS 数字校园</h1>
+            <p class="p1">高校学生、老师以及为高校学生购买设备的家长，享受教育专属优惠。</p>
             <div class="button">
               <a href="http://mall.jschuangsen.cn/Home/User/login">开始选购 <span class="el-icon-arrow-right"></span></a>
             </div>  
