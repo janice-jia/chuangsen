@@ -3,7 +3,9 @@
     <div class="cs-iosclub-part1">
       <div class="container">
         <h1>iOS 俱乐部</h1>
-        <p class="tit">增强教与学联动，走进高校内部，<br>激发更多创造力实践。<br>edu@jschuangsen.cn</p>
+          <p class="tit"><span style="width:14px;display:inline-block">&nbsp;</span>增强教与学联动，走进高校内部，</p>
+          <p class="tit"><span style="width:14px;display:inline-block">&nbsp;</span>激发更多创造力实践。</p>
+          <p class="tit" style="width:290px; margin:0 auto">edu@jschuangsen.cn</p>
         <!--<div class="item-1 item-rel">-->
           <!--<img src="../assets/img/cs-iosclub-1.jpg" alt="">-->
           <!--<p>ios 俱乐部活动-湖北汽车学院</p>-->
@@ -23,8 +25,8 @@
 
         <h1>iOS 俱乐部活动</h1>
         <p class="tit">中国高校计算机大赛—移动应用创新赛</p>
-        <p class="con">由Apple公司和浙江大学发起的原创性应用程序（App）的开发比赛，参赛 App 基于 iOS 系统设计开发，并须在Apple公司的产品组合上顺畅运行。鼓励参赛队伍下载使用 Swift 语言进行开发。</p>
-        <p class="con">参赛作品主题涉及应用领域及社会关注的热点难点问题，如能源、健康医疗、环保、养老、智慧交通、智慧城市、智慧物流、与社会创新相关的物联网、食品安全、与社会服务相关的大数据/云服务等。</p>
+        <p class="con">由 Apple 公司和浙江大学发起的原创性应用程序（App）的开发比赛，参赛 App 基于 iOS 系统设计开发，并须在 Apple 公司的产品组合上顺畅运行。鼓励参赛队伍下载使用 Swift 语言进行开发。</p>
+        <p class="con" style="letter-spacing: 0.8px;">参赛作品主题涉及应用领域及社会关注的热点难点问题，如能源、健康医疗、环保、养老、智慧交通、智慧城市、智慧物流、与社会创新相关的物联网、食品安全、与社会服务相关的大数据/云服务等。</p>
       
         <div class="item-3">
           <img src="../assets/img/cs-iosclub-4.jpg" alt="">
@@ -33,13 +35,13 @@
         <div class="item-4">
           <el-row :gutter="60">
             <el-col :span="12">
-              <div class="box">
+              <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-5.jpg" alt="">
                 <p>2019年10.25-27日，第四届中国高校移动应用创新赛决赛，武汉大学的参赛作品《Hello Slide》喜获一等奖。</p>
               </div>
             </el-col>
             <el-col :span="12">
-              <div class="box">
+              <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-6.jpg" alt="">
                 <p>2020第五届中国高校计算机大赛-移动应用创新赛，武汉大学的 C4 团队所开发的《Comive》获得了这次比赛的二等奖。</p>
               </div>
@@ -48,6 +50,13 @@
         </div>
       </div>
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="iOSCourse" active-class="activeClass">上一页</router-link>
+      <router-link to="iOSExperience" active-class="activeClass">下一页</router-link>
+    </div>
+
   </div>
 </template>
 <script>

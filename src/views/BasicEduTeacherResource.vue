@@ -68,7 +68,7 @@
                 <div style="clear:both"></div>
             </div>
 
-            <div class="item" style="margin-bottom:90px">
+            <div class="item" style="margin-bottom:0">
                 <div class="item-l"><img src="../assets/img/teacherResource-3.jpg" alt=""></div>
                 <div class="item-r">
                     <h1>Swift 开发专辑课程</h1>
@@ -80,6 +80,12 @@
                 <div style="clear:both"></div>
             </div>
       </div>
+    </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="BasicEduTeacherTraining" active-class="activeClass">上一页</router-link>
+      <router-link to="BasicEduParents" active-class="activeClass">下一页</router-link>
     </div>
   </div>
 </template>

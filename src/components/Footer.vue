@@ -5,7 +5,7 @@
        <el-row type="flex" justify="space-between" >
         <el-col :span="10">
           <div class="middle-img">
-            <img class="logo" src="../assets/foot_logo_small.png" alt="">
+            <!-- <img class="logo" src="../assets/foot_logo_small.png" alt=""> -->
           </div>
         </el-col>
         <el-col :span="8">

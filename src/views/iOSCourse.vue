@@ -4,7 +4,7 @@
       <div class="container">
         <div class="item-1">
           <h1>iOS 课程</h1>
-          <h2>AATP 介绍</h2>
+          <!-- <h2>AATP 介绍</h2> -->
           <p class="p1">AATP（Apple Authorized Training Provider）</p>
           <p class="p2">Apple 和 RTP 是专门针对高职院校的教学需求，对接岗位所需所开发出的适合职业教育的课程体系。</p>
         </div>
@@ -169,12 +169,19 @@
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-2.jpg" alt=""></div></el-col>
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-3.jpg" alt=""></div></el-col>
         </el-row>
-        <el-row :gutter="60" style="margin-bottom: 40px">
+        <el-row :gutter="60">
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-4.jpg" alt=""></div></el-col>
           <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-5.jpg" alt=""></div></el-col>
         </el-row>
       </div>
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="Protrain" active-class="activeClass">上一页</router-link>
+      <router-link to="iOSClub" active-class="activeClass">下一页</router-link>
+    </div>
+
   </div>
 </template>
 <script>
@@ -217,6 +224,8 @@ export default {
           font-weight: 600;
           color: #000000;
           line-height: 38px;
+          color: #0071E3;
+          margin-top: 39px;
        }
        .p2{
           font-size: 20px;
@@ -224,6 +233,7 @@ export default {
           color: #000000;
           line-height: 38px;
           margin-bottom: 45px;
+          color: #0071E3;
        }
      }
      .item-2{

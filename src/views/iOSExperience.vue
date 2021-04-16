@@ -85,7 +85,7 @@
 
         <el-row :gutter="60">
           <el-col :span="12">
-            <div class="itembox">
+            <div class="itembox"  style="margin-bottom:0">
               <div class="img">
                 <img src="../assets/img/cs-exper-6.jpg" alt="">
               </div>
@@ -97,7 +97,7 @@
             </div>
           </el-col>
           <el-col :span="12">
-            <div class="itembox">
+            <div class="itembox" style="margin-bottom:0">
               <div class="img">
                 <img src="../assets/img/cs-exper-7.jpg" alt="">
               </div>
@@ -112,6 +112,12 @@
       </div>
 
     </div>
+
+    <div class="cs-page">
+      <router-link to="home" active-class="activeClass">首页</router-link>
+      <router-link to="iOSClub" active-class="activeClass">上一页</router-link>
+    </div>
+
   </div>
 </template>
 <script>
