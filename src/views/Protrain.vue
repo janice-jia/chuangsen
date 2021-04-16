@@ -10,7 +10,7 @@
         </div>
         <div style="clear:both"></div>
         <p class="p1">2020年公司与武汉大学合作建成的武汉大学的 RTC（区域教育培训中心）<br>每年将在此举办湖北地区教师培训，邀请多个高校的老师参加。</p>
-        <p class="p2">咨询邮箱：wangrong@doublerise.com</p>
+        <p class="p2">咨询邮箱：edu@jschuangsen.cn</p>
       </div>
     </div>
 
