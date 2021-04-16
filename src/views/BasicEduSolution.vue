@@ -19,7 +19,7 @@
           <p class="p1">创森智云是 Apple 授权的教育行业一级经销商，致力于为学校提供定制化的硬件选型建议，为老师和学生提供教学和学习设备。</p>
           <p class="p2">教育价专享采购平台</p>
           <div class="button">
-            <a href="https://mall.doublerise.com/Home/User/login">开始选购 
+            <a href="http://mall.jschuangsen.cn/Home/User/login">开始选购
               <span class="el-icon-arrow-right"></span>
             </a>
           </div>
