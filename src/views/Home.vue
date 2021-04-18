@@ -55,6 +55,7 @@
                 <span class="el-icon-arrow-right"></span>
               </a>
             </div>
+            <div style="clear:both"></div>
             <img src="../assets/img/cs-home-4.png" alt="">
           </div>
         </div>
@@ -141,6 +142,11 @@ export default {
       height: 798px;
       img{
         max-width: 100%;
+      }
+      @media screen and (max-width: 750px) {
+          img{
+            max-width: 75%;
+          }
       }
       .con{
         display: table-cell;

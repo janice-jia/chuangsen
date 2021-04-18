@@ -294,6 +294,7 @@ export default {
             font-weight: 400;
             color: #000000;
             line-height: 38px;
+            text-align: justify;
          }
        }
      }
@@ -327,7 +328,7 @@ export default {
           padding-bottom: 50px;
           width: 965px;
           margin: 0 auto;
-          text-align: left;
+          text-align: justify;
        }
        img{
          margin: 25px 0 80px 0;

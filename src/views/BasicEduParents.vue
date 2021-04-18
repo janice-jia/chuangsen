@@ -113,14 +113,16 @@ export default {
      }
      .con{
        position: absolute;
-       top: 0;
+       top: 50%;
        left: 50%;
        width: 1200px;
        margin-left: -600px;
+       margin-top: -120px;
        
        .conbox{
          width: 1200px;
-         height: 768px;
+        //  height: 768px;
+         height: 100%;
          margin: 0 auto;
           display: table-cell;
           vertical-align: middle;
@@ -147,7 +149,6 @@ export default {
           background: #0071E3;
           border-radius: 38px;
           display: inline-block;
-          margin-bottom: 55px;
           a{
             display: block;
             width: 100%;

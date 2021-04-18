@@ -94,6 +94,7 @@ export default {
       color: #000000;
       line-height: 38px;
       margin-bottom: 50px;
+      text-align: justify;
    }
    .item{
      margin-bottom: 75px;

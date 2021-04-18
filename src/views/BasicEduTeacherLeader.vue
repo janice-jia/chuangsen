@@ -69,7 +69,7 @@
                         <div class="item-con">
                             <div class="middle"  style="height:270px">
                                 <p class="p1">与社群建立联系</p>
-                                <p class="p2">通过技术在学校中的作用，使学校获得社群的认同和支持。</p>
+                                <p class="p2" style="letter-spacing:-0.6px">通过技术在学校中的作用，使学校获得社群的认同和支持。</p>
                             </div>
                         </div>
                     </div>
@@ -232,7 +232,7 @@ export default {
                         line-height: 38px;
                         width: 100%;
                         margin: 34px 0 0 0;
-                        text-align: left;
+                        text-align: justify;
                   }
               }
           }

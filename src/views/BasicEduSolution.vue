@@ -896,6 +896,7 @@ export default {
             color: #000000;
             line-height: 38px;
             width: 369px;
+            text-align: justify;
          }
          .w1{
            width: 369px;

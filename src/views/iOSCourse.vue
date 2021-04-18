@@ -276,8 +276,8 @@ export default {
      .item-3{
        margin: 60px 0;
        .item-box{
-         padding: 60px 80px 0 83px;
-         height: 630px;
+         padding: 60px 50px 0 83px;
+         height: 660px;
          background: #fff;
          border-radius: 22px;
          box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);

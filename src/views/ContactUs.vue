@@ -40,7 +40,7 @@
                   <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
                 </div>
                 <div class="tel">
-                    <p class="name" style="padding-right: 40px; ">鲍清</p>
+                    <p class="name">鲍清</p>
                     <p class="telnum">151 7232 6007</p>
                 </div>
               </div>

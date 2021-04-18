@@ -100,6 +100,7 @@ export default {
                     &:first-child{
                         margin-bottom: 10px;
                     }
+                    text-align: justify;
                 }
             }
         }

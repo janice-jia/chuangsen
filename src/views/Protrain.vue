@@ -19,7 +19,7 @@
       <div class="container">
         <div class="part-con">
           <p class="p1">区域教育培训中心<br>(Regional Training Center，简称 RTC)</p>
-          <p class="p2">是一个面向大中华区专门将 Apple 专业培训课程融入其面向注册学员的既定教程和管理认证中的学术机构。本计划的设计十分灵活，提供 Apple 专业培训系列教材以增强现有的教程。RTC 通过符合 Apple 要求的 Apple 认证培训师向学员和教员教授 Apple 专有课程。</p>
+          <p class="p2" style="letter-spacing:0.3px">是一个面向大中华区专门将 Apple 专业培训课程融入其面向注册学员的既定教程和管理认证中的学术机构。本计划的设计十分灵活，提供 Apple 专业培训系列教材以增强现有的教程。RTC 通过符合 Apple 要求的 Apple 认证培训师向学员和教员教授 Apple 专有课程。</p>
           <p class="p3">Apple 培训班具有可扩展性，能够满足教育机构在正常学期长度班级内的需求，而且是当前创新课程计划的完美补充。</p>
           <img src="../assets/img/cs-protrain-4.jpg" alt="">
         </div>
@@ -248,8 +248,8 @@ export default {
         font-size: 20px;
         line-height: 38px;
         padding: 0 120px;
-        text-align: left;
         word-break: break-word;
+        text-align: justify;
       }
       .p3{
         font-size: 20px;
@@ -310,6 +310,7 @@ export default {
             font-weight: 400;
             color: #000000;
             line-height: 48px;
+            text-align: justify;
           } 
         }
         .item-1{
@@ -441,6 +442,7 @@ export default {
         }
         .p5{
           margin:28px 0 58px 0;
+          text-align: justify;
         }
       }
     }
@@ -460,6 +462,7 @@ export default {
         font-weight: 400;
         color: #000000;
         line-height: 38px;
+        text-align: justify;
       }
     }
   }
@@ -507,6 +510,7 @@ export default {
           font-weight: 400;
           color: #333333;
           line-height: 38px;
+          text-align: justify;
         }
       }
     }
@@ -528,6 +532,7 @@ export default {
       line-height: 38px;
       margin: 60px auto 0 auto;
       width: 958px;
+      text-align: justify;
     }
   }
 }

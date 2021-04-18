@@ -168,6 +168,7 @@ export default {
           line-height: 38px;
           padding: 32px;
           height: 166px;
+          text-align: justify;
        }
      }
    }

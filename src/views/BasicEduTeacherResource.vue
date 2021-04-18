@@ -48,7 +48,7 @@
                 <div class="item-l"><img src="../assets/img/teacherResource-1.jpg" alt=""></div>
                 <div class="item-r">
                     <h1>《人人能编程》</h1>
-                    <div class="con">
+                    <div class="con" style="letter-spacing:1.2px">
                         人人能编程”课程可指导你通过 Swift Playgrounds 来教授编程，这款 app 通过互动式解谜闯关和生动有趣的角色，来引导儿童学习编码。它适合8岁以上的学生使用，也能让你用专业 app 开发者使用的语言来介绍编程。
                     </div>
                     <a href="https://www.apple.com.cn/education/docs/everyone-can-code-curriculum-guide.pdf" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
@@ -60,7 +60,7 @@
                 <div class="item-l"><img src="../assets/img/teacherResource-2.jpg" alt=""></div>
                 <div class="item-r">
                     <h1>《人人能创造》</h1>
-                    <div class="con">
+                    <div class="con" style="letter-spacing:1.2px">
                         通过“人人能创造”学习指南里的各个项目，学生们可以学着用视频、摄影、音乐和绘画来开拓思路，表达想法。同时，老师们也可借此以富有趣味和意义的教学方法，将这些技能带入到各个年级的各种课程之中，从而点亮创意的火花。 
                     </div>
                     <a href="https://www.apple.com.cn/education/everyone-can-create-guides/" class="more">点击获取 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
@@ -149,6 +149,7 @@ export default {
                     font-weight: 400;
                     color: #000000;
                     line-height: 38px;
+                    text-align: justify;
                 }
                 .more{
                     font-size: 26px;
