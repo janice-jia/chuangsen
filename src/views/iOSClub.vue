@@ -2,7 +2,8 @@
   <div class="iOSClub">
     <div class="cs-iosclub-part1">
       <div class="container">
-        <h1>iOS 俱乐部</h1>
+            <!--<h1>iOS 俱乐部</h1>-->
+          <div class="icon-club"></div>
           <p class="tit"><span style="width:14px;display:inline-block">&nbsp;</span>增强教与学联动，走进高校内部，</p>
           <p class="tit"><span style="width:14px;display:inline-block">&nbsp;</span>激发更多创造力实践。</p>
           <p class="tit" style="width:290px; margin:0 auto">edu@jschuangsen.cn</p>
@@ -76,12 +77,20 @@ export default {
 <style lang="scss">
 .iOSClub{
    border-bottom: 1px solid #D6D6D6;
+    .icon-club{
+        margin: 114px auto 60px auto;
+        width: 130px;
+        height: 150px;
+        text-align: center;
+        background: url(../assets/iOS_Club.svg) no-repeat left center;
+        background-size: 100%;
+    }
    h1{
       font-size: 58px;
       font-weight: 600;
       color: #000000;
       line-height: 76px;
-      margin: 114px 0 60px 0;
+      margin: 100px 0 60px 0;
       text-align: center;
    }
    .tit{
