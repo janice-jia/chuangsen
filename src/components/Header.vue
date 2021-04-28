@@ -14,7 +14,7 @@
           <el-row type="flex" class="row-bg" justify="end">
             <!-- pc菜单 -->
             <div class="pcMenu">
-              <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect">
+              <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @open="handleOpen" @select="handleSelect">
                 <el-menu-item index="1"><router-link to="home" active-class="activeClass">Apple 与教育</router-link></el-menu-item>
                 <el-submenu index="2">
                   <template slot="title">基础教育</template>
@@ -94,7 +94,11 @@ export default {
       if(this.$route.name == 'iOSClub') this.activeIndex = '3-3'
       if(this.$route.name == 'iOSExperience') this.activeIndex = '3-4'
     },
+    handleOpen(key, keyPath) {
+      console.log(11);
+    },
     handleSelect(v){
+      console.info('aa',v)
       this.activeIndex = v
     }
   },

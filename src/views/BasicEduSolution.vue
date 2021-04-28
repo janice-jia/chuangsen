@@ -560,6 +560,7 @@ export default {
    .cs-baseEduS-part1{
      position: relative;
      height: 1120px;
+     text-align: center;
     img{
       // max-width: 100%;
       max-height: 100%;
@@ -829,6 +830,7 @@ export default {
    .cs-baseEduS-part5{
      position: relative;
      height: 620px;
+     text-align: center;
      img{
        max-height: 100%;
      }

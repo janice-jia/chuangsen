@@ -71,6 +71,7 @@ export default {
     .cs-contactUs-part1{
         height: 750px;
         position: relative;
+        text-align: center;
         img{
           max-height: 100%;
         }

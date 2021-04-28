@@ -108,7 +108,6 @@ export default {
      text-align: center;
      position: relative;
      img{
-         float: left;
          max-width: 100%;
      }
      .con{
