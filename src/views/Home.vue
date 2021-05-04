@@ -14,8 +14,8 @@
     <!-- 基础教育，，高等教育 -->
     <div class="cs-home-part2">
       <div class="container">
-        <el-row type="flex" justify="space-between" :gutter="60">
-          <el-col :span="12">
+        <el-row :gutter="60">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-home-2.jpg" class="image">
               <div class="img-tit">
@@ -28,7 +28,7 @@
               </div>
             </el-card>
           </el-col>
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-home-3.jpg" class="image">
               <div class="img-tit">
@@ -87,7 +87,7 @@ export default {
       background: url(../assets/img/cs-home-1.jpg) no-repeat bottom #fff;
       background-size:100% auto;
       .cs-home-con{
-        width: 930px;
+        // width: 930px;
         margin: 0 auto;
       }
       .tit{
@@ -99,6 +99,7 @@ export default {
       .con{
         letter-spacing: 0.2px;
         text-indent: 0;
+        text-align: justify;
         &:last-child{
           margin-top: 40px;
         }
@@ -107,7 +108,6 @@ export default {
     // 基础教育--高等教育
     .cs-home-part2{
       padding: 85px 0;
-      height: 710px;
       overflow: hidden;
       .image {
         width: 100%;
@@ -139,7 +139,7 @@ export default {
     // 即刻登入
     .cs-home-part3{
       background: #fff;
-      height: 798px;
+      padding: 20px 0 120px 0;
       img{
         max-width: 100%;
       }
@@ -179,4 +179,13 @@ export default {
       }
     }
   }
+
+// 适配
+@media screen and (max-width: 768px) {
+  .cs-home .cs-home-part2 .el-card{
+    &:first-child{
+      margin-bottom: 80px;
+    }
+  }
+}
 </style>

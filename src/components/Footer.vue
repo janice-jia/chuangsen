@@ -2,13 +2,13 @@
   <div class="cf-footer">
     <div class="container">
       <div class="foot-con1">
-       <el-row type="flex" justify="space-between" >
-        <el-col :span="10">
+       <el-row>
+        <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
           <div class="middle-img">
             <!-- <img class="logo" src="../assets/foot_logo_small.png" alt=""> -->
           </div>
         </el-col>
-        <el-col :span="8">
+        <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
           <el-row type="flex" justify="end">
             <div class="foot-logo">
               <div class="foot-logo-item">

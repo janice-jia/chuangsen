@@ -7,7 +7,9 @@
     </el-container>
     <router-view/>
     <!-- 尾部 -->
-    <Footer></Footer>
+    <Footer>
+      
+    </Footer>
   </div>
 </template>
 
