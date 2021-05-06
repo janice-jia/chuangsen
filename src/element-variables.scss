@@ -40,7 +40,6 @@ li{
 .container{
     max-width: 1360px;
     margin: 0 auto;
-    max-width: 100%;
     padding: 0 80px;
 }
 
@@ -335,8 +334,21 @@ p.con{
 }
 
 // 适配
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1251px) {
+    .pcMenu{
+        
+        .el-menu--horizontal > .el-menu-item,
+        .el-menu--horizontal > .el-submenu > .el-submenu__title{
+            padding: 0 15px!important;
+        }
+    }
+}
+
+
+// 适配
+@media screen and (max-width: 1045px) {
     .container{
+        width: auto;
         padding: 0 30px!important;
     }
     #web{
@@ -358,5 +370,8 @@ p.con{
                 max-width: 100%;
             }
         } 
+        .el-row--flex.is-justify-end{
+            justify-content: center;
+        }
     } 
 }

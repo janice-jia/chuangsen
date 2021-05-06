@@ -19,7 +19,7 @@
 
         <div class="item-3">
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item-box">
                 <img src="../assets/img/icon-iosC-2.png" alt="">
                 <p class="p1">IT 支持类课程</p>
@@ -28,7 +28,7 @@
                 <p class="p4">升级并重新安装 macOS Mojave<br>设置和配置 macOS<br>命令行界面和 macOS 恢复<br>管理用户帐户和用户个人文件夹<br>macOS 安全性功能和密码更改<br></p>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item-box">
                 <img src="../assets/img/icon-iosC-3.png" alt="">
                 <p class="p1">数字媒体类课程</p>
@@ -48,7 +48,7 @@
         <div class="item-5">
           <!-- 1,,,2 -->
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item-box">
                 <div class="item-box-l">
                   <div class="middle"><img src="../assets/img/icon-iosC-4.png" alt=""></div>
@@ -60,7 +60,7 @@
                 </div>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item-box">
                 <div class="item-box-l">
                   <div class="middle"><img src="../assets/img/icon-iosC-5.png" alt=""></div>
@@ -76,7 +76,7 @@
 
           <!-- 3,,,4 -->
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="item-box">
                 <div class="item-box-l">
                   <div class="middle"><img src="../assets/img/icon-iosC-6.png" alt=""></div>
@@ -88,7 +88,7 @@
                 </div>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="item-box">
                 <div class="item-box-l">
                   <div class="middle"><img src="../assets/img/icon-iosC-7.png" alt=""></div>
@@ -166,12 +166,12 @@
       <div class="container">
         <h1>现有认证资质</h1>
         <el-row :gutter="60" style="margin-bottom: 40px">
-          <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-2.jpg" alt=""></div></el-col>
-          <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-3.jpg" alt=""></div></el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><div class="item"><img src="../assets/img/cs-iosC-2.jpg" alt=""></div></el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><div class="item"><img src="../assets/img/cs-iosC-3.jpg" alt=""></div></el-col>
         </el-row>
         <el-row :gutter="60">
-          <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-4.jpg" alt=""></div></el-col>
-          <el-col :span="12"><div class="item"><img src="../assets/img/cs-iosC-5.jpg" alt=""></div></el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><div class="item"><img src="../assets/img/cs-iosC-4.jpg" alt=""></div></el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12"><div class="item"><img src="../assets/img/cs-iosC-5.jpg" alt=""></div></el-col>
         </el-row>
       </div>
     </div>
@@ -268,14 +268,15 @@ export default {
        }
        .p3{
          font-size: 20px;
-         width: 957px;
+         max-width: 957px;
          margin: 0 auto;
          color: #333;
        }
      }
      .item-3{
-       margin: 60px 0;
+       margin: 0 0 60px 0;
        .item-box{
+         margin-top: 60px;
          padding: 60px 50px 0 83px;
          height: 660px;
          background: #fff;
@@ -329,13 +330,14 @@ export default {
           height: 360px;
           background: #FFFFFF;
           border-radius: 22px;
-          padding: 77px 0 77px 60px;
+          padding: 77px 0 77px 0;
           box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
           word-break: break-word;
           margin-bottom: 60px;
           .item-box-l{
-            width: 86px;
+            width: 20%;
             float: left;
+            margin-left: 10%;
             .middle{
               display: table-cell;
               vertical-align: middle;
@@ -344,8 +346,9 @@ export default {
           }
           .item-box-r{
             float: left;
-            width: 310px;
-            margin-left: 60px;
+            width: 55%;
+            margin-left: 5%;
+            // margin-left: 60px;
           }
           .tit{
             font-size: 32px;
@@ -376,8 +379,8 @@ export default {
         font-weight: 600;
         color: #000000;
         line-height: 38px;
-        height: 176px;
-        line-height: 176px;
+        line-height: 70px;
+        padding: 40px 0;
         text-align: center;
      }
      .item-box{
@@ -388,7 +391,7 @@ export default {
            float: left;
          }
          .item-l{
-           width: 360px;
+           width: 35%;
            padding-left: 60px;
            .middle{
              display: table-cell;
@@ -403,7 +406,7 @@ export default {
            }
          }
          .item-r{
-           width: 840px;
+           width: 65%;
            .p1{
               font-size: 24px;
               font-weight: 600;
@@ -415,6 +418,9 @@ export default {
               font-weight: 400;
               color: #000000;
               line-height: 45px;
+           }
+           img{
+             max-width: 100%;
            }
          }
        }
@@ -432,12 +438,21 @@ export default {
         margin: 78px 0 57px 0;
      }
      .item{
-        width: 570px;
+        width: 100%;
         img{
           float: left;
           max-width: 100%;
         }
      }
    }
+}
+// 适配
+@media screen and (max-width: 768px) {
+  .iOSCourse .cs-iosCou-part2 .item-box .item .item-l{
+    padding-left: 0;
+  }
+  .iOSCourse .cs-iosCou-part2 .item-box .item .item-r .p1{
+    margin-right: 0!important;
+  }
 }
 </style>

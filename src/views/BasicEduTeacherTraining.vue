@@ -6,26 +6,26 @@
         <h1>教师培训</h1>
         <p class="desc">创森与具有 Apple 教学经验的教育工作者和优秀的领导团队合作，以创新为重点，为教师提供技术培训、指导和支持，从而帮助教师激发学生兴趣，让学生快乐学习。</p>
         <p class="dingzhi">定制教师培养课程：</p>
-        <el-row type="flex" justify="center">
-          <el-col :span="6">
+        <el-row justify="center">
+          <el-col :xs="12" :sm="12" :md="6" :lg="6" :xl="6">
             <div class="dz-item">
               <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-1.png" alt=""></div>
               <p>学校领导力及规划的支持</p>
             </div>
           </el-col>
-          <el-col :span="8">
+          <el-col :xs="12" :sm="12" :md="8" :lg="8" :xl="8">
             <div class="dz-item">
               <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-2.png" alt=""></div>
               <p>各学科探索型学习体验的指导</p>
             </div>
           </el-col>
-          <el-col :span="5">
+          <el-col :xs="12" :sm="12" :md="5" :lg="5" :xl="5">
             <div class="dz-item">
               <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-3.png" alt=""></div>
               <p>Apple 编程课程指导</p>
             </div>
           </el-col>
-          <el-col :span="5">
+          <el-col :xs="12" :sm="12" :md="5" :lg="5" :xl="5">
             <div class="dz-item">
               <div class="dz-item-img"><img src="../assets/img/icon-teacherTrain-4.png" alt=""></div>
               <p>项目式学习的教学探索</p>
@@ -42,10 +42,10 @@
           <img src="../assets/img/icon-teacherTrain-5.png" alt="">
           <p style="margin:40px 0 55px 0">课堂 App Classroom</p>
           <div class="con">
-            • 教师通过自己的 iPad/Mac 巡视学生 iPad 屏幕，查看学生学习内容<br>
-            • 单人/群体导航至特定网页、书籍或 App<br>
-            • 可以将学生 iPad 锁定为仅限使用一个 App<br>
-            • 将学生设备锁屏/静音，保持学生的课堂专注力<br>
+            <p><span>• </span>教师通过自己的 iPad/Mac 巡视学生 iPad 屏幕，查看学生学习内容</p>
+            <p><span>• </span>单人/群体导航至特定网页、书籍或 App</p>
+            <p><span>• </span>可以将学生 iPad 锁定为仅限使用一个 App</p>
+            <p><span>• </span>将学生设备锁屏/静音，保持学生的课堂专注力</p>
           </div>
           <img src="../assets/img/teacherTrain-1.jpg" alt="" style="margin:80px 0 0 0">
           <p style="margin:170px 0 75px 0">iPad 学习及教学类应用</p>
@@ -82,10 +82,9 @@ export default {
 .cs-BasEduTeaTrain{
   border-bottom: 1px solid #D6D6D6;
   .cs-BasEduTeaTrain-part1{
-    height: 890px;
     background: #f5f5f7;
     text-align: center;
-    padding: 115px 0 0 0;
+    padding: 115px 0 130px 0;
     .container{
       h1{
         font-size: 58px;
@@ -94,7 +93,7 @@ export default {
         line-height: 76px;
       }
       p.desc{
-        width: 920px;
+        max-width: 920px;
         font-size: 24px;
         font-weight: 400;
         color: #000000;
@@ -148,13 +147,49 @@ export default {
         line-height: 38px;
       }
       .con{
-        margin: 0 auto;
-        width: 753px;
-        text-align: left;
-        font-size: 24px;
-        font-weight: 400;
-        color: #000000;
-        line-height: 46px;
+        p{
+          position: relative;
+          padding-left: 25px;
+          width: 753px;
+          margin: 0 auto;
+          span{
+            position: absolute;
+            left: 0;
+            top: 0; 
+          }
+        }
+        p,span{
+          text-align: left;
+          font-size: 24px;
+          font-weight: 400;
+          color: #000000;
+          line-height: 46px;
+        }
+      }
+    }
+  }
+}
+
+
+// 适配
+@media screen and (max-width: 768px) {
+  .cs-BasEduTeaTrain{
+  border-bottom: 1px solid #D6D6D6;
+    .cs-BasEduTeaTrain-part1{
+      .container{
+        p.desc{
+          width: auto!important;
+        }
+      }
+    }
+    .cs-BasEduTeaTrain-part2{
+      .container{
+        .con{
+          width: auto!important;
+          p{
+            width: auto!important;
+          }
+        }
       }
     }
   }

@@ -87,7 +87,7 @@ export default {
       text-align: center;
    }
    .conp{
-     width: 957px;
+     max-width: 957px;
      margin: 0 auto;
       font-size: 24px;
       font-weight: 400;

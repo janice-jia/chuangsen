@@ -197,20 +197,20 @@ export default {
           float: left;
           border-radius: 22px;
           overflow: hidden;
-          height: 290px;
+          max-height: 290px;
           img{
             max-width: 100%;
           }
         }
         .item-1{
-          width: 419px;
+          width: 35%;
         }
         .item-2{
-          width: 419px;
-          margin: 0 33px 0 37px;
+          width: 35%;
+          margin: 0 3%;
         }
         .item-3{
-          width: 290px;
+          width: 24%;
         }
       }
       .p1{
@@ -260,6 +260,7 @@ export default {
       img{
         margin: 0;
         float: left;
+        max-width: 100%;
       }
     }
   }

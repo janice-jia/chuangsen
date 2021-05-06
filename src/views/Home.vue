@@ -85,9 +85,9 @@ export default {
       text-align: center;
       height: 1120px;
       background: url(../assets/img/cs-home-1.jpg) no-repeat bottom #fff;
-      background-size:100% auto;
+      background-size:auto auto;
       .cs-home-con{
-        // width: 930px;
+        max-width: 930px;
         margin: 0 auto;
       }
       .tit{
@@ -118,11 +118,10 @@ export default {
         border-radius: 22px;
       }
       .img-tit{
-        width: 560px;
+        width: 100%;
         height: 190px;
+        padding-top: 40px;
         background-color: #fff;
-        display: table-cell;
-        vertical-align: middle;
         text-align: center;
         span.tit{
           font-size: 40px;
@@ -185,6 +184,13 @@ export default {
   .cs-home .cs-home-part2 .el-card{
     &:first-child{
       margin-bottom: 80px;
+    }
+  }
+  .cs-home-part1{
+    height: 900px!important;
+    background-size:100% auto!important;
+    .cs-home-con{
+      width: auto!important;
     }
   }
 }

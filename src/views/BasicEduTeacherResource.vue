@@ -21,6 +21,7 @@
                 <img src="../assets/img/teacherResource-4.jpg" alt="">
             </div>
         </div>
+        <div style="clear:both"></div>
       </div>
     </div>
 
@@ -128,14 +129,14 @@ export default {
             }
             .item-l{
                 text-align: right;
-                width: 365px;
+                width: 36%;
                 padding-left: 81px;
                 img{
                     max-width: 100%;
                 }
             }
             .item-r{
-                width: 765px;
+                width: 64%;
                 padding: 17px 86px 0 53px;
                 h1{
                     font-size: 32px;
@@ -162,13 +163,13 @@ export default {
       }
   }
   .cs-BasicEduTeaRes-part2{
-      padding-bottom: 93px;
+      padding-bottom: 80px;
       .container{
           h1.tit{
                 font-size: 42px;
                 font-weight: 600;
                 color: #000000;
-                line-height: 38px;
+                line-height: 60px;
                 padding: 0 0 91px 0;
                 text-align: center;
           }
@@ -176,7 +177,7 @@ export default {
               height: 530px;
               .item-l{
                   float: left;
-                  width: 560px;
+                  width: 47%;
                   padding: 28px 0 0 0;
                   .p1{
                     font-size: 32px;
@@ -190,6 +191,7 @@ export default {
                       color: #000000;
                       line-height: 38px;
                       margin: 45px 0;
+                      text-align: justify;
                   }
                   .p3{
                       font-size: 24px;
@@ -206,7 +208,7 @@ export default {
                   }
               }
               .item-r{
-                  width: 580px;
+                  width: 50%;
                   height: 530px;
                   float: right;
                   border-radius: 22px;
@@ -236,12 +238,12 @@ export default {
           .item{
             .item-l{
                 float: left;
-                width: 613px;
+                width: 53%;
             }
             .item-r{
                 float: left;
-                width: 557px;
-                margin-left: 10px;
+                width: 47%;
+                padding-left: 10px;
                 .p1{
                     font-size: 32px;
                     font-weight: bold;
@@ -254,6 +256,7 @@ export default {
                     color: #000000;
                     line-height: 38px;
                     margin: 45px 0;
+                    text-align: justify;
                 }
                 .more{
                     font-size: 26px;
@@ -265,5 +268,58 @@ export default {
           }
       }
   }
+}
+
+// 适配
+@media screen and (max-width: 768px) {
+.cs-BasicEduTeaRes{
+    .cs-BasicEduTeaRes-part1{
+      .container{
+          .item{
+              .item-l{
+                  width: 100%;
+                  padding-left: 0;
+                  text-align: center;
+                  margin-bottom: 30px;
+                  img{
+                      max-width: 100%;
+                      max-height: 100%;
+                  }
+              }
+              .item-r{
+                  h1{
+                      text-align: center;
+                  }
+                  .more{
+                      width: 100%;
+                      display: inline-block;
+                      text-align: center;
+                  }
+                  width: 100%;
+                  padding: 20px 35px!important;
+              }
+          }
+      }
+    }
+  .cs-BasicEduTeaRes-part2,.cs-BasicEduTeaRes-part3{
+      .container{
+          .item{
+              height: 530px;
+              .item-l{
+                  width: 100%;
+              }
+              .item-r{
+                  width: 100%;
+                  margin-top: 40px;
+                  margin-left: 0;
+                  height: auto;
+                  img{
+                      max-width: 100%;
+                  }
+              }
+          }
+      }
+  }
+}
 }
 </style>

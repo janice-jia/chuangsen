@@ -11,7 +11,7 @@
 
           <div class="item-1">
             <el-row>
-              <el-col :span="11">
+              <el-col :xs="24" :sm="24" :md="24" :lg="11" :xl="11">
                 <div class="con">
                   <p class="tit">批量购买计划</p>
                   <p class="desc">(Volume Purchase Program)<br>批量购买 App 许可结合 MDM 推送给设备</p>
@@ -20,7 +20,7 @@
                   <p class="tit">管理式 Apple ID<br>所有账户享有200G 免费 iCloud 空间</p>
                 </div>
               </el-col>
-              <el-col :span="13">
+              <el-col :xs="24" :sm="24" :md="24" :lg="13" :xl="13">
                 <div class="img">
                   <img src="../assets/img/icon-baseIt-1.png" alt="">
                 </div>
@@ -222,15 +222,15 @@ export default {
         color: #000000;
         line-height: 38px;
         text-align: center;
-        width: 861px;
+        max-width: 861px;
         margin: 0 auto 65px auto;
      }
      .item-1{
+       min-height: 600px;
        position: relative;
        margin-bottom: 101px;
        img{
-          float: left;
-          max-width: 100%;
+          max-height: 100%;
        }
        .con{
          position: absolute;
@@ -264,12 +264,12 @@ export default {
        }
      }
      .conRow{
-       width: 960px;
+       max-width: 960px;
        margin: 0 auto;
        padding-bottom: 60px;
        .conRow-icon{
          float: left;
-         width: 83px;
+         width: 10%;
          text-align: center;
          .middle{
            display: table-cell;
@@ -279,8 +279,8 @@ export default {
        }
        .conRow-desc{
          float: left;
-         width: 825px;
-         margin-left: 50px;
+         width: 85%;
+         margin-left: 5%;
          text-align: left;
          .p4{
             font-size: 32px;
@@ -326,7 +326,7 @@ export default {
           color: #000000;
           line-height: 38px;
           padding-bottom: 50px;
-          width: 965px;
+          max-width: 965px;
           margin: 0 auto;
           text-align: justify;
        }
@@ -336,5 +336,67 @@ export default {
        }
      }
    }
+}
+// 适配
+@media screen and (max-width: 1045px) {
+  .BasicEduIT .BasicEduIT-part1 .item-1 .con .tit,
+  .BasicEduIT .BasicEduIT-part1 .item-1 .con .desc,
+  .BasicEduIT .BasicEduIT-part1 .item-1 .img{
+    text-align: center;
+  }
+}
+// 适配
+@media screen and (max-width: 768px) {
+  .BasicEduIT{
+    .BasicEduIT-part2{
+      .p1{
+        width: auto;
+      }
+      .item-1{
+        height: 500px;
+        img{
+          max-height: 100%;
+          max-width: none;
+        }
+        .con{
+          left: 50px;
+          .middle{
+            height: 500px;
+            .p2,.p3{
+              width: auto;
+              padding: 0 15px;
+            }
+            .p3{
+              padding: 10px 15px;
+              text-align: justify;
+            }
+          }
+        }
+      }
+      .conRow{
+        width: 100%;
+        .conRow-icon{
+          width: 20%;
+          .middle{
+            img{
+              max-width: 100%;
+            }
+          }
+        }
+        .conRow-desc{
+          width: 75%;
+          margin-left: 5%;
+        }
+      }
+      .item-2{
+        h3{
+          font-size: 30px;
+        }
+        .gkcon{
+          width: auto;
+        }
+      }
+    }
+  }
 }
 </style>

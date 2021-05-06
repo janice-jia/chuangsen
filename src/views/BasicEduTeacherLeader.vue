@@ -11,7 +11,7 @@
             <p class="p4">我们可以帮您：</p>
 
             <el-row :gutter="60">
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item" style="height:240px">
                         <div class="item-icon">
                             <div class="middle" style="height:240px">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item" style="height:240px">
                         <div class="item-icon">
                             <div class="middle" style="height:240px">
@@ -44,7 +44,7 @@
             </el-row>
 
             <el-row :gutter="60">
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item" style="height:270px">
                         <div class="item-icon">
                             <div class="middle" style="height:270px">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item" style="height:270px">
                         <div class="item-icon">
                             <div class="middle" style="height:270px">
@@ -77,7 +77,7 @@
             </el-row>
 
             <el-row :gutter="60">
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item item-5" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :span="12">
+                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="item item-6" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
@@ -116,12 +116,12 @@
             <h1>面向领导者的图书</h1>
             <p class="p1">树立创新思维、塑造创新文化，领导力系列是我们精心为您准备的实用策略工具。</p>
             <el-row type="flex" class="row-bg" justify="center">
-                <el-col :span="10">
+                <el-col :xs="20" :sm="20" :md="10" :lg="10" :xl="10">
                     <img src="../assets/img/teacherLead-1.jpg" alt="">
                     <p class="p2">《领导力要素》</p>
                     <a href="/pdf/领导力要素.ibooks" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
                 </el-col>
-                <el-col :span="10">
+                <el-col :xs="20" :sm="20" :md="10" :lg="10" :xl="10">
                     <img src="../assets/img/teacherLead-2.jpg" alt="">
                     <p class="p2">《推动学校创新》</p>
                     <a href="/pdf/推动学校创新.ibooks" class="more">点击可下载并阅览完整电子书 <img src="../assets/img/icon-teacherResource-6.png" alt=""></a>
@@ -167,8 +167,8 @@ export default {
                 padding: 115px 0 91px 0;
           }
           .p1,.p2{
-              width: 862px;
-              margin: 0 auto;
+            max-width: 862px;
+            margin: 0 auto;
             font-size: 24px;
             font-weight: 600;
             color: #000000;
@@ -176,6 +176,7 @@ export default {
           .p1{
               line-height: 38px;
               text-align: left;
+              text-align: justify;
           }
           .p2{
                 line-height: 30px;
@@ -281,7 +282,57 @@ export default {
                 font-size: 26px;
                 font-weight: 400;
                 color: #0071E3;
-                line-height: 30px;
+                line-height: 35px;
+            }
+        }
+    }
+}
+
+// 适配
+@media screen and (max-width: 768px) {
+    .cs-BasicEduTeaLead{
+        .cs-BasicEduTeaLead-part1{
+            .p1,.p2, .p3{
+                width: auto!important;
+            }
+
+            .item{
+                padding: 0 20px;
+              .item-icon{
+                   width: 20%;
+                    .middle{
+                        width: 100%!important;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+              }
+              .item-con{
+                  width: 80%;
+                  float: right!important;
+              }
+            }
+        }
+        .cs-BasicEduTeaLead-part2{
+            .el-col{
+                &:first-child{
+                    margin-right: 10px;
+                }
+                &:last-child{
+                    margin-left: 10px;
+                }
+                .p2{
+                    font-size: 24px;
+                }
+                .more{
+                    font-size: 20px;
+                    img{
+                        height: 15px;
+                    }
+                }
+            }
+            img{
+                max-width: 100%;
             }
         }
     }

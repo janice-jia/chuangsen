@@ -162,4 +162,16 @@ export default {
      }
    }
 }
+// 适配
+@media screen and (max-width: 768px) {
+  .BasicEduParents{
+     .BasicEduParents-part3{
+       height: 320px;
+       img{
+         max-height: 100%;
+         max-width: none!important;
+       }
+     }
+  }
+}
 </style>

@@ -33,7 +33,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-2.png" alt=""></div>
                 <p class="icontit">设备初始化</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 软件安装 -->
@@ -41,7 +41,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-3.png" alt=""></div>
                 <p class="icontit">软件安装</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 资产信息收集激光雕刻 -->
@@ -49,7 +49,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-4.png" alt=""></div>
                 <p class="icontit">资产信息收集<br>激光雕刻</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 打包 -->
@@ -57,7 +57,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-5.png" alt=""></div>
                 <p class="icontit">打包</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 运输 -->
@@ -70,11 +70,11 @@
         </div>
         <div class="item-3">
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="img"><img src="../assets/img/cs-basicEduS-2.jpg" alt=""></div>
               <p style="color: #63CAAD;">发放和培训</p>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="img"><img src="../assets/img/cs-basicEduS-3.jpg" alt=""></div>
               <p style="color: #E7323A;">运维管理</p>
             </el-col>
@@ -83,7 +83,7 @@
 
         <div class="item-4">
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="item-4-box">
                 <div class="part1">
                   <el-row type="flex" justify="space-between">
@@ -100,7 +100,7 @@
                 <div class="img"><img src="../assets/img/cs-basicEduS-4.jpg" alt=""></div>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="item-4-box">
                 <div class="part2">
                   <el-row type="flex" justify="space-between">
@@ -139,10 +139,11 @@
         </div>
         <h1 class="tit" style="color: #E9612A;">设备回收</h1>
         <div class="item-5">
+          
           <div class="part1">
-            <el-row type="flex" justify="space-between">
-              <el-col style="width:522px;margin:0 10px 0 70px">
-                <el-row type="flex" justify="space-between" style="text-align:center;margin:30px 0 65px 0">
+            <el-row>
+              <el-col class="el1" :xs="24" :sm="24" :md="11" :lg="11" :xl="11">
+                <el-row type="flex" justify="space-between" style="text-align:center;margin:15px 0 65px 0">
                   <el-col>
                     <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-16.png" alt=""></div>
                     <p class="icontit">旧设备回收</p>
@@ -163,11 +164,13 @@
                   </el-col>
                 </el-row>
               </el-col>
-              <el-col>
+              <el-col class="el2" :xs="24" :sm="24" :md="13" :lg="13" :xl="13">
                 <img style="border-radius:22px;" src="../assets/img/cs-basicEduS-5.jpg" alt="">
               </el-col>
             </el-row>
           </div>
+
+          
           <h2 class="tit">回收模式</h2>
           <p class="tit1">针对个人</p>
           <div class="part2">
@@ -177,7 +180,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-20.png" alt=""></div>
                 <p class="icontit">线上下单</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 预约上门 -->
@@ -185,7 +188,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-21.png" alt=""></div>
                 <p class="icontit">预约上门</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col  class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 当面质检 -->
@@ -193,7 +196,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-22.png" alt=""></div>
                 <p class="icontit">当面质检</p>
               </el-col>
-              <el-col style="width: 118px;">
+              <el-col  class="w118">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 秒拿钱 -->
@@ -212,7 +215,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-24.png" alt=""></div>
                 <p class="icontit">收集回收信息</p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 上门检查设备 -->
@@ -220,7 +223,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-25.png" alt=""></div>
                 <p class="icontit">上门检查设备</p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 报价 -->
@@ -228,7 +231,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-26.png" alt=""></div>
                 <p class="icontit">报价</p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 客户确认 -->
@@ -236,7 +239,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-27.png" alt=""></div>
                 <p class="icontit">客户确认</p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 签订协议 -->
@@ -244,7 +247,7 @@
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-28.png" alt=""></div>
                 <p class="icontit">签订协议</p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 支付客户款项并开票 -->
@@ -254,7 +257,7 @@
                   <span style="position: absolute;left:-30px;width:200px">支付客户款项并开票</span>
                 </p>
               </el-col>
-              <el-col style="width: 50px;">
+              <el-col  class="w50">
                 <div class="iconright"><img class="img" src="../assets/img/icon-basicEduS-0.png" alt=""></div>
               </el-col>
               <!-- 取回设备 -->
@@ -539,6 +542,12 @@ export default {
       display: inline-block;
     }
    }
+   .w118{
+     width: 118px;
+   }
+   .w50{
+     width: 50px;
+   }
   
   .icontit{
     margin-top: 25px;
@@ -710,6 +719,15 @@ export default {
          padding: 74px 0 78px 0;
          text-align: center;
          margin-bottom: 53px;
+         .el1{
+            padding:0 60px;
+          }
+          .el2{
+            padding-right: 90px;
+            img{
+              max-width: 100%;
+            }
+          }
          .tit{
             font-size: 32px;
             font-weight: 400;
@@ -909,5 +927,81 @@ export default {
        }
      }
    }
+}
+// 适配
+@media screen and (max-width: 768px) {
+  .BasicEduSolution{
+    .cs-baseEduS-part1{
+      height: 780px;
+      .container{
+        .con{
+          width: 100%;
+          margin-left: -50%;
+          height: auto;
+          img{
+            max-width: 34%;
+          }
+        }
+      }
+    }
+    .iconbox{
+      width: 80px;
+      height: 80px;
+      line-height: 100px;
+      img{
+        max-width: 40%;
+      }
+    }
+    .w118,.w50{
+      width: 0px;
+      img{
+        max-width: 100%;
+      }
+    }
+    .cs-baseEduS-part2{
+      .container{
+        .item-1{
+          .p1{
+            width: auto!important;
+            padding: 71px 30px 38px 30px!important;
+            text-align: justify;
+          }
+          img{
+            max-width: 80%;
+            height: auto!important;
+          }
+        }
+        .item-2{
+          padding: 71px 10px!important;
+        }
+        .item-3{
+          .img{
+            img{
+              max-width: 100%;
+            }
+          }
+        }
+        .item-5{
+          .el2{
+            padding: 0 30px;
+            margin-top: 30px;
+          }
+          .part2,.part3{
+            margin: 0;
+          }
+          .part3{
+            .iconbox{
+              width: 50px;
+              height: 50px;
+              line-height: 60px;
+              img{
+                max-width: 50%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 </style>
