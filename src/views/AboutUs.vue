@@ -16,11 +16,17 @@
         <div class="container">
             <p class="tit">关于我们</p>
             <div class="cs-aboutUs-part2-con">
-                <img src="../assets/img/cs-aboutus-1.jpg" alt="">
-                <div class="con">
-                    <p>江苏创森智云信息技术有限公司（以下简称“创森”）是 Apple 教育T1经销商。公司总部设在北京，在上海、深圳、苏州、杭州、武汉、成都等地设有分公司，是 Apple 企业T1经销商倍升互联（北京）科技有限公司的全资子公司。Apple 业务的员工总数超过400人。创森和倍升由华软科技股份有限公司（深圳证券交易所证券代码：002453）控股。</p>
-                    <p>华软科技成立于1999年，2010年在深圳证券交易所上市。2019年华软科技总收入4.07亿美元。华软始终用创新不断为客户创造价值。作为国家级高新技术企业，还拥有多个行业的认证。该公司还在教育领域进行了大量投资。截至目前，Apple 教育业务收入份额占华润集团15%。江苏创森智云信息技术有限公司为各类教育客户提供移动解决方案，与200多所高校、100多所职业学校、50多个教育集团合作。</p>
-                </div>
+                <el-row>
+                    <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12" class="img">
+                        <img src="../assets/img/cs-aboutus-1.jpg" alt="">
+                    </el-col>
+                    <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+                        <div class="con">
+                            <p>江苏创森智云信息技术有限公司（以下简称“创森”）是 Apple 教育T1经销商。公司总部设在北京，在上海、深圳、苏州、杭州、武汉、成都等地设有分公司，是 Apple 企业T1经销商倍升互联（北京）科技有限公司的全资子公司。Apple 业务的员工总数超过400人。创森和倍升由华软科技股份有限公司（深圳证券交易所证券代码：002453）控股。</p>
+                            <p>华软科技成立于1999年，2010年在深圳证券交易所上市。2019年华软科技总收入4.07亿美元。华软始终用创新不断为客户创造价值。作为国家级高新技术企业，还拥有多个行业的认证。该公司还在教育领域进行了大量投资。截至目前，Apple 教育业务收入份额占华润集团15%。江苏创森智云信息技术有限公司为各类教育客户提供移动解决方案，与200多所高校、100多所职业学校、50多个教育集团合作。</p>
+                        </div>
+                    </el-col>
+                </el-row>
             </div>
         </div>
     </div>
@@ -52,8 +58,9 @@ export default {
         text-align: center;
     }
     .cs-aboutUs-part1{
-        height: 340px;
+        // height: 340px;
         background: #fff;
+        padding-bottom: 80px;
         .con{
             text-align: center;
             .tit{
@@ -73,7 +80,7 @@ export default {
     }
     // 关于我们
     .cs-aboutUs-part2{
-        height: 820px;
+        // height: 820px;
         background: #F5F5F7;
         .tit{
             padding: 80px 0 57px 0;
@@ -82,16 +89,17 @@ export default {
             background: #fff;
             border-radius: 22px;
             overflow: hidden;
-            height: 560px;
+            // height: 560px;
+            margin-bottom: 80px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
             img{
+                max-width: 100%;
                 float: left;
-                width: 540px;
+                // width: 540px;
             }
             .con{
-                width: 640px;
-                float: left;
-                padding: 30px 35px 52px 52px;
+                // width: 640px;
+                padding: 30px 35px 0 0;
                 p{
                     font-size: 20px;
                     font-weight: 400;
@@ -107,4 +115,17 @@ export default {
         
     }
 }
+// 适配
+@media screen and (max-width: 992px) {
+    .AboutUs .cs-aboutUs-part2 .cs-aboutUs-part2-con .img{
+        text-align: center;
+        img{
+            float: none;
+        }
+    }
+    .AboutUs .cs-aboutUs-part2 .cs-aboutUs-part2-con .con{
+        padding: 30px;
+    }
+}
+
 </style>

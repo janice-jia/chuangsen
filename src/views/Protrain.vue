@@ -115,7 +115,7 @@
     <div class="cs-Protrain-part5">
       <div class="container">
         <el-row class="bgcol">
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <template>
               <el-carousel :interval="5000" height="540px" arrow="always">
                 <el-carousel-item>
@@ -145,7 +145,7 @@
               </el-carousel>
             </template>
           </el-col>
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <img src="../assets/img/cs-protrain-7.jpg" alt="">
           </el-col>
         </el-row>
@@ -320,6 +320,9 @@ export default {
           .tit{
             margin: 48px 0 22px 0;
           }
+          img{
+            max-width: 100%;
+          }
         }
         .item-2{
           width: 380px;
@@ -375,8 +378,8 @@ export default {
     h1{
       font-size: 42px;
       font-weight: 600;
-      color: #000000;
-      line-height: 38px;
+      color: hsl(0, 0%, 0%);
+      line-height: 50px;
       text-align: center;
       padding: 90px 0 60px 0;
     }
@@ -387,7 +390,7 @@ export default {
       line-height: 38px;
       text-align: center;
       padding-bottom: 42px;
-      width: 958px;
+      max-width: 958px;
       margin: 0 auto;
     }
     .item{
@@ -396,6 +399,9 @@ export default {
       img{
         max-width: 100%;
         max-height: 100%;
+        &:first-child{
+          max-width: none;
+        }
       }
       .p2,.p4{
         font-size: 26px;
@@ -425,9 +431,10 @@ export default {
         }
         .p3{
           position: absolute;
-          left: 56px;
+          left: 0;
           top: 100px;
-          width: 456px;
+          width: 100%;
+          padding: 0 55px;
           color: #FFFFFF;
         }
       }
@@ -471,7 +478,6 @@ export default {
     background: #f5f5f7;
     padding: 80px 0;
     .container{
-      
       .bgcol{
         border-radius: 22px;
         background: #DEEDF4;
@@ -479,6 +485,7 @@ export default {
       }
       img{
         float: left;
+        width: 100%;
       }
       .el-carousel__arrow,
       .el-carousel__arrow--left,
@@ -503,7 +510,7 @@ export default {
           font-size: 42px;
           font-weight: 600;
           color: #000000;
-          line-height: 30px;
+          line-height: 50px;
         }
         p{
           margin-top: 52px;
@@ -523,7 +530,7 @@ export default {
     .p1{
       font-size: 42px;
       font-weight: 600;
-      line-height: 38px;
+      line-height: 50px;
       text-align: center;
     }
     .p2{
@@ -532,8 +539,33 @@ export default {
       color: #000000;
       line-height: 38px;
       margin: 60px auto 0 auto;
-      width: 958px;
+      max-width: 958px;
       text-align: justify;
+    }
+  }
+}
+// 适配
+@media screen and (max-width: 992px) {
+  .Protrain .cs-Protrain-part3 .item{
+    display: grid;
+    .grid-content{
+      width: 90%!important;
+      margin: 20px auto!important;
+    }
+  }
+  .Protrain .cs-Protrain-part4 .item{
+    display: grid;
+    .item-1,
+    .item-2{
+      width: 100%;
+      margin: 0 auto;
+    }
+    .item-1{
+      text-align: center;
+      margin-bottom: 60px;
+      img{
+        width: 100%;
+      }
     }
   }
 }

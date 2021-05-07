@@ -15,8 +15,8 @@
     </div>
     <div class="cs-contactUs-part2">
         <div class="container">
-        <el-row type="flex" justify="space-between" :gutter="60">
-          <el-col :span="12">
+        <el-row justify="space-between" :gutter="60">
+          <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-2.jpg" class="image">
               <div class="address-desc">
@@ -31,7 +31,7 @@
               </div>
             </el-card>
           </el-col>
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
             <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
               <img src="../assets/img/cs-contactUs-3.jpg" class="image">
               <div class="address-desc">
@@ -177,5 +177,16 @@ export default {
             }
         }
     }
+}
+
+// 适配
+@media screen and (max-width: 1200px) {
+  .ContactUs .cs-contactUs-part2 .el-card{
+    padding-top: 30px;
+    margin-bottom: 50px;
+  }
+  .ContactUs .cs-contactUs-part2 .img{
+    max-width: 100%;
+  }
 }
 </style>

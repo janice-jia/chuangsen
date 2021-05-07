@@ -35,13 +35,13 @@
 
         <div class="item-4">
           <el-row :gutter="60">
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-5.jpg" alt="">
                 <p>2019年10.25-27日，第四届中国高校移动应用创新赛决赛，武汉大学的参赛作品《Hello Slide》喜获一等奖。</p>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
               <div class="box" style="margin-bottom:0">
                 <img src="../assets/img/cs-iosclub-6.jpg" alt="">
                 <p>2020第五届中国高校计算机大赛-移动应用创新赛，武汉大学的 C4 团队所开发的《Comive》获得了这次比赛的二等奖。</p>
@@ -106,7 +106,8 @@ export default {
       color: #000000;
       line-height: 38px;
       margin: 42px auto;
-      width: 999px;
+      max-width: 999px;
+      text-align: justify;
    }
    .item-rel{
      position: relative;
@@ -134,19 +135,20 @@ export default {
      }
    }
    .item-2{
-       margin-top: 57px;
+      margin-top: 57px;
      img{
        max-height: 100%;
-       max-width: 100%;
      }
      .item-l{
        float: left;
-       width: 480px;
+       width: 40%;
+       height: 430px;
      }
      .item-r{
        float: right;
-       width: 690px;
-       margin-left: 27px;
+       width: 56%;
+       margin-left: 4%;
+       height: 430px;
      }
      .item-rel p{
        font-size: 36px;
@@ -181,5 +183,25 @@ export default {
        }
      }
    }
+}
+// 适配
+@media screen and (max-width: 992px) {
+  .iOSClub .item-2 .item-l,
+  .iOSClub .item-2 .item-r{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    img{
+      max-width: 100%;
+      max-height: auto;
+    }
+  }
+  .iOSClub .item-2 .item-l{
+    margin-bottom: 30px;
+  }
+  .iOSClub .item-4 .el-col{
+    text-align: center;
+    margin-bottom: 30px;
+  }
 }
 </style>

@@ -447,6 +447,12 @@ export default {
    }
 }
 // 适配
+@media screen and (max-width: 992px) {
+  .iOSCourse .cs-iosCou-part2 .item-box .item .item-r .p1{
+    margin-right: 0;
+  }
+}
+// 适配
 @media screen and (max-width: 768px) {
   .iOSCourse .cs-iosCou-part2 .item-box .item .item-l{
     padding-left: 0;

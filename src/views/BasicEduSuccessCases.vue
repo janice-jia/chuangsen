@@ -5,7 +5,7 @@
         <h1>成功案例</h1>
         <h2>北京新英才学校</h2>
         <div class="item">
-          <el-row type="flex">
+          <el-row class="itemrow" type="flex">
             <el-col style="margin-right:60px"><div class="imgbox w1"><img src="../assets/img/cs-baseSucc-1.jpg" alt=""></div></el-col>
             <el-col><div class="imgbox w2"><img src="../assets/img/cs-baseSucc-2.jpg" alt=""></div></el-col>
           </el-row>
@@ -21,8 +21,8 @@
         <h2>凯文学校</h2>
         <div class="item2">
           <el-row :gutter="60">
-            <el-col :span="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-3.jpg" alt=""></div></el-col>
-            <el-col :span="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-4.jpg" alt=""></div></el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-3.jpg" alt=""></div></el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-4.jpg" alt=""></div></el-col>
           </el-row>
         </div>
         <p class="conp">
@@ -37,8 +37,8 @@
       
         <div class="item3">
           <el-row :gutter="60">
-            <el-col :span="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-5.jpg" alt=""></div></el-col>
-            <el-col :span="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-6.jpg" alt=""></div></el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-5.jpg" alt=""></div></el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12"><div class="imgbox"><img src="../assets/img/cs-baseSucc-6.jpg" alt=""></div></el-col>
           </el-row>
         </div>
         <p class="conp">北京市鼎石学校是一所属于中国的学校，采用国际课程，拥有世界情怀。我们致力于融合中国、美国和国际三种教育传统之精粹，为中国、以及世界带来一种前所未有、独具特色的教育理念——世界学校。</p>
@@ -130,5 +130,38 @@ export default {
        padding: 0 0 75px 0;
      }
    }
+}
+
+// 适配
+@media screen and (max-width: 992px) {
+  .BasicEduSuccessCases .item{
+    .w1,.w2{
+      width: 100%;
+    }
+    .w1{
+      margin-bottom: 60px;
+    }
+    .w2{
+      img{
+        width: 100%;
+      }
+    }
+    .itemrow{
+      display: grid;
+      text-align: center;
+    }
+  }
+  .BasicEduSuccessCases .cs-baseEduSucc-part2 .item2 .imgbox,
+  .BasicEduSuccessCases .cs-baseEduSucc-part3 .item3 .imgbox{
+    text-align: center;
+    &:first-child{
+      margin-bottom: 30px;
+    }
+  }
+  .BasicEduSuccessCases .cs-baseEduSucc-part3 .item3 .imgbox{
+    img{
+      width: 100%;
+    }
+  }
 }
 </style>

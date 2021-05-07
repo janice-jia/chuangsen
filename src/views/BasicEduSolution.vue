@@ -364,10 +364,10 @@
         <h1>服务网络</h1>
         <div>
           <el-row>
-            <el-col :span="14" style="padding-right:50px">
+            <el-col :xs="24" :sm="24" :md="24" :lg="14" :xl="14" style="padding-right:50px">
               <img class="img" src="../assets/img/icon-basicEduS-32.png" alt="">
             </el-col>
-            <el-col :span="10">
+            <el-col :xs="24" :sm="24" :md="24" :lg="10" :xl="10">
               <p class="p1"><span class="font32">第二工作日</span><span class="font24">上门服务</span></p>
               <p class="p2"><span class="font24">覆盖全国</span><span class="font42">500+</span><span class="font24">个城市</span></p>
               <el-row>
@@ -420,7 +420,7 @@
     <div class="cs-baseEduS-part6">
       <div class="container">
         <el-row>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-33.png" alt=""></div></el-col>
@@ -433,7 +433,7 @@
                 </el-row>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-34.png" alt=""></div></el-col>
@@ -447,7 +447,7 @@
               </div>
             </el-col>
 
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-35.png" alt=""></div></el-col>
@@ -460,7 +460,7 @@
                 </el-row>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-36.png" alt=""></div></el-col>
@@ -474,7 +474,7 @@
               </div>
             </el-col>
 
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px;"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-37.png" alt=""></div></el-col>
@@ -487,7 +487,7 @@
                 </el-row>
               </div>
             </el-col>
-            <el-col :span="12">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <div class="item">
                 <el-row type="flex">
                   <el-col style="width:135px"><div class="middle"><img class="img" src="../assets/img/icon-basicEduS-38.png" alt=""></div></el-col>
@@ -628,7 +628,7 @@ export default {
          text-align: center;
          .p1{
            margin: 0 auto;
-           width: 980px;
+           max-width: 980px;
             font-size: 24px;
             font-weight: 400;
             color: #000000;
@@ -854,15 +854,14 @@ export default {
      }
      .container{
        position: absolute;
-       left: 50%;
+       left: 25%;
        top: 0;
-       margin-left: -680px;
        .middle{
          display: table-cell;
          vertical-align: middle;
          height: 620px;
          text-align: center;
-         width: 1360px;
+         width: 100%;
        }
        h1{
           font-size: 42px;
@@ -927,6 +926,38 @@ export default {
        }
      }
    }
+}
+
+@media screen and (max-width: 992px){
+  .BasicEduSolution .cs-baseEduS-part2 .container .item-3 .img{
+    img{
+      width: 100%;
+    }
+  }
+  .BasicEduSolution .cs-baseEduS-part2 .container .item-4 .item-4-box{
+    margin-bottom: 60px;
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .img{
+    margin: 0;
+    max-width: 100%;
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .item-con{
+    padding: 10%;
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .item-con .item-conbox{
+    width: 100%;
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .item-con .el-row--flex{
+      display: inline-table;
+      .el-col{
+        width: 30%;
+        margin: 15px 1%;
+      }
+  }
+  .BasicEduSolution .cs-baseEduS-part6 .container .item .w1,
+  .BasicEduSolution .cs-baseEduS-part6 .container .item .w2{
+    width: 100%;
+  }
 }
 // 适配
 @media screen and (max-width: 768px) {
@@ -1002,6 +1033,16 @@ export default {
         }
       }
     }
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .item-con{
+    padding: 0;
+  }
+  .BasicEduSolution .cs-baseEduS-part3 .container .item-con .el-row--flex{
+      display: inline-table;
+      .el-col{
+        width: 48%;
+        margin: 15px 1%;
+      }
   }
 }
 </style>

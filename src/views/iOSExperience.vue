@@ -57,7 +57,7 @@
       <div class="container">
         <h1>校园体验中心</h1>
         <el-row :gutter="60">
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox">
               <div class="img">
                 <img src="../assets/img/cs-exper-4.jpg" alt="">
@@ -69,7 +69,7 @@
               </div>
             </div>
           </el-col>
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox">
               <div class="img">
                 <img src="../assets/img/cs-exper-5.jpg" alt="">
@@ -84,7 +84,7 @@
         </el-row>
 
         <el-row :gutter="60">
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox"  style="margin-bottom:0">
               <div class="img">
                 <img src="../assets/img/cs-exper-6.jpg" alt="">
@@ -96,7 +96,7 @@
               </div>
             </div>
           </el-col>
-          <el-col :span="12">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox" style="margin-bottom:0">
               <div class="img">
                 <img src="../assets/img/cs-exper-7.jpg" alt="">
@@ -255,5 +255,19 @@ export default {
   //  }
    
    
+}
+
+// 适配
+@media screen and (max-width: 1200px) {
+  .iOSExperience .cs-iOSExp-part2 .con{
+    .com{
+      padding: 0 20px;
+    }
+    .el-row{
+      .el-col{
+        margin-top: 30px;
+      }
+    }
+  }
 }
 </style>
