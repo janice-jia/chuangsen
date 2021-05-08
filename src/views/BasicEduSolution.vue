@@ -253,7 +253,7 @@
               <!-- 支付客户款项并开票 -->
               <el-col>
                 <div class="iconbox"><img class="img" src="../assets/img/icon-basicEduS-29.png" alt=""></div>
-                <p class="icontit" style="position: relative;">
+                <p class="icontit  icontit1" style="position: relative;">
                   <span style="position: absolute;left:-30px;width:200px">支付客户款项并开票</span>
                 </p>
               </el-col>
@@ -1004,6 +1004,33 @@ export default {
         }
         .item-2{
           padding: 71px 10px!important;
+          .el-row--flex{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content:flex-start;
+              .el-col-24{
+                width: 33%;
+                // flex: 1;
+                .iconbox{
+                  width: 80px;
+                  height: 80px;
+                  line-height: 100px;
+                }
+                .icontit{
+                  max-width: 100%;
+                  margin-bottom: 35px;
+                }
+                .icontit1{
+                  span{
+                    position: initial;
+                    width: auto!important;
+                  }
+                }
+              }
+              .w118{
+                width: 0!important;
+              }
+            }
         }
         .item-3{
           .img{
@@ -1020,6 +1047,9 @@ export default {
           .part2,.part3{
             margin: 0;
           }
+          .part2{
+            margin-bottom: 40px;
+          }
           .part3{
             .iconbox{
               width: 50px;
@@ -1027,6 +1057,33 @@ export default {
               line-height: 60px;
               img{
                 max-width: 50%;
+              }
+            }
+            .el-row--flex{
+              display: flex;
+              flex-wrap: wrap;
+              justify-content:flex-start;
+              .el-col-24{
+                width: 33%;
+                // flex: 1;
+                .iconbox{
+                  width: 80px;
+                  height: 80px;
+                  line-height: 100px;
+                }
+                .icontit{
+                  max-width: 100%;
+                  margin-bottom: 35px;
+                }
+                .icontit1{
+                  span{
+                    position: initial;
+                    width: auto!important;
+                  }
+                }
+              }
+              .w50{
+                width: 0!important;
               }
             }
           }
@@ -1043,6 +1100,22 @@ export default {
         width: 48%;
         margin: 15px 1%;
       }
+  }
+  .BasicEduSolution .cs-baseEduS-part2 .container .item-4 .part1{
+    margin: 60px 20px 60px 20px;
+  }
+  .BasicEduSolution .cs-baseEduS-part5{
+    height: auto;
+    height: 270px;
+    .container{
+      left: 0;
+      .middle{
+        height: 270px;
+      }
+    }
+    // img{
+    // }
+
   }
 }
 </style>

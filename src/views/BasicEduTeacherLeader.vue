@@ -188,7 +188,6 @@ export default {
                 font-weight: 400;
                 color: #000000;
                 line-height: 38px;
-                width: 609px;
                 text-align: center;
                 margin: 0 auto;
           }
@@ -199,6 +198,7 @@ export default {
               margin: 50px auto 63px auto;
               font-size: 28px;
               color: #0071E3;
+              text-align: center;
           }
           .item{
               background: #fff;

@@ -85,7 +85,7 @@
 
         <el-row :gutter="60">
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
-            <div class="itembox"  style="margin-bottom:0">
+            <div class="itembox">
               <div class="img">
                 <img src="../assets/img/cs-exper-6.jpg" alt="">
               </div>
@@ -97,7 +97,7 @@
             </div>
           </el-col>
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
-            <div class="itembox" style="margin-bottom:0">
+            <div class="itembox">
               <div class="img">
                 <img src="../assets/img/cs-exper-7.jpg" alt="">
               </div>
@@ -173,7 +173,6 @@ export default {
           font-weight: 400;
           color: #333333;
           line-height: 28px;
-          width: 451px;
        }
      }
    }
@@ -268,6 +267,12 @@ export default {
         margin-top: 30px;
       }
     }
+  }
+}
+@media screen and (max-width: 768px) {
+  .iOSExperience .cs-iOSExp-part2 .con{
+    padding: 0 52px;
+    max-width: 100%;
   }
 }
 </style>

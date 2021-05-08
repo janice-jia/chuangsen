@@ -189,4 +189,71 @@ export default {
     max-width: 100%;
   }
 }
+
+// 适配
+@media screen and (max-width: 768px) {
+  .ContactUs .cs-contactUs-part2 .el-card{
+    padding-top: 0;
+  }
+  .ContactUs .cs-contactUs-part1{
+    height: auto;
+    img{
+      max-width: 100%;
+    }
+    
+    .item2{
+      img{
+        max-width: 50%;
+      }
+    }
+    .con{
+      margin: 0;
+      left: 10%;
+      width: 80%;
+      height: 200px;
+      bottom: -135px;
+      .item1{
+        .url{
+          font-size: 22px!important;
+        }
+        &::after{
+          top: 42px;
+          height: 120px;
+        }
+      }
+      .item1,.item2{
+        height: 200px;
+      }
+    }
+    
+  }
+  .ContactUs .cs-contactUs-part2{
+    padding: 200px 0 100px 0;
+  }
+  .ContactUs .cs-contactUs-part2 .address-desc{
+      .address{
+        padding-left:95px;
+        background: url(../assets/img/icon-address1.png) no-repeat 45px 3px;
+      }
+      .address-con{
+        padding: 15px 60px 15px 95px;
+      }
+      .tel{
+        p{
+          float: left;
+          &.name{
+              padding-right: 40px;
+              text-align: right;
+              width: 225px;
+              background: url(../assets/img/icon-user.png) no-repeat 95px 0;
+          }
+          &.telnum{
+              padding-left: 75px;
+              background: url(../assets/img/icon-tel.png) no-repeat 28px 0;
+              background-size: auto 100%;
+          }
+      }
+      }
+  }
+}
 </style>

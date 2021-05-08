@@ -460,5 +460,10 @@ export default {
   .iOSCourse .cs-iosCou-part2 .item-box .item .item-r .p1{
     margin-right: 0!important;
   }
+  .iOSCourse .cs-iosCou-part1 .item-5 .item-box .item-box-l .middle{
+    img{
+      max-width: 75%;
+    }
+  }
 }
 </style>

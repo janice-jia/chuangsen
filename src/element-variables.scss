@@ -181,12 +181,19 @@ p.con{
             cursor: pointer;
             img{
                 margin: 0 20px;
+                
             }
         }
         .logo{
             a{
                 background-position: center;
             }
+        }
+        .iconmenu img{
+            width: 36px;
+        }
+        .icoclose img{
+            width: 26px;
         }
     }
     .leftmenu{
@@ -200,8 +207,11 @@ p.con{
             border: none;
             .el-menu-item,
             .el-submenu__title{
-                font-size: 14px;
+                font-size: 26px;
                 font-weight: 400;
+                height: 98px;
+                line-height: 98px;
+                border-top: 1px solid #454546;
                 border-bottom: 1px solid #454546;
                 color: #FEFEFE;
                 padding: 0!important;
@@ -211,6 +221,16 @@ p.con{
                 &:hover{
                     background: none;
                 }
+            }
+            .menu1n{
+                border-top: 0;
+                border-bottom: 0!important;
+            }
+            .menu1{
+                border-top: none;
+            }
+            .menubtn .el-submenu__title:first-child{
+                border-bottom: none;
             }
             .el-menu-item{
                 border-bottom: 1px solid #454546;

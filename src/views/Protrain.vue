@@ -568,5 +568,13 @@ export default {
       }
     }
   }
+  .Protrain .cs-Protrain-part5 .container{
+    .el-carousel__container{
+      height: 500px!important;
+    }
+    .el-carousel__indicators--horizontal{
+      bottom: 50px;
+    }
+  }
 }
 </style>
