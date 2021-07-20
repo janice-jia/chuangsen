@@ -15,7 +15,7 @@
                 <p class="p1">Apple 为教育工作者带来了新思路，由兴趣教育发挥创造力。</p>
                 <p class="p2">由 Apple 创立的一项专注于教育卓越和领导力关系的计划，由教育界领军人物组成的全球社区，利用 Apple 技术改变教学方式，帮助其他教育工作者重新思考 iPad 和 Mac 带来的无限可能性，进而为学生提供个性十足的学习方法。</p>
                 <p class="p3">成为 ADE 社区的一员不仅是一项荣誉，更是一个能够有所作为的机会。</p>
-                <a href="https://ade.apple.com/login.jspa?referer=%2Fwelcome" class="more">我想成为一名 ADE <span class="el-icon-arrow-right"></span></a>
+                <a href="https://ade.apple.com/login.jspa?referer=%252Fwelcome" class="more">我想成为一名 ADE <span class="el-icon-arrow-right"></span></a>
             </div>
             <div class="item-r">
                 <img src="../assets/img/teacherResource-4.jpg" alt="">
