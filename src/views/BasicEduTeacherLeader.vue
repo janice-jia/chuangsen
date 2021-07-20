@@ -353,7 +353,7 @@ export default {
                     }
                 }
                 .item-con{
-                    width: 79%;
+                    width: 79%!important;
                     float: right!important;
                 }
             }
