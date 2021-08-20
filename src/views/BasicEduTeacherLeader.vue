@@ -11,7 +11,7 @@
             <p class="p4">我们可以帮您：</p>
 
             <el-row :gutter="60">
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item" style="height:240px">
                         <div class="item-icon">
                             <div class="middle" style="height:240px">
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item" style="height:240px">
                         <div class="item-icon">
                             <div class="middle" style="height:240px">
@@ -44,7 +44,7 @@
             </el-row>
 
             <el-row :gutter="60">
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item" style="height:270px">
                         <div class="item-icon">
                             <div class="middle" style="height:270px">
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item" style="height:270px">
                         <div class="item-icon">
                             <div class="middle" style="height:270px">
@@ -77,7 +77,7 @@
             </el-row>
 
             <el-row :gutter="60">
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item item-5" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
@@ -92,7 +92,7 @@
                         </div>
                     </div>
                 </el-col>
-                <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+                <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
                     <div class="item item-6" style="height:330px">
                         <div class="item-icon">
                             <div class="middle" style="height:330px">
@@ -333,6 +333,29 @@ export default {
             }
             img{
                 max-width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1250px) {
+    .cs-BasicEduTeaLead{
+        .cs-BasicEduTeaLead-part1{
+            .item{
+                padding: 0 20px;
+                .item-icon{
+                    width: 20%;
+                    .middle{
+                        width: 100%!important;
+                        img{
+                            max-width: 100%;
+                        }
+                    }
+                }
+                .item-con{
+                    width: 79%!important;
+                    float: right!important;
+                }
             }
         }
     }
