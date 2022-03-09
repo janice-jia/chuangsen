@@ -15,39 +15,129 @@
     </div>
     <div class="cs-contactUs-part2">
         <div class="container">
-        <el-row justify="space-between" :gutter="60">
-          <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
-            <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
-              <img src="../assets/img/cs-contactUs-2.jpg" class="image">
-              <div class="address-desc">
-                <p class="address">汉口学院 Apple 校园体验中心</p>
-                <div class="address-con">
-                  <p>湖北武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨Apple体验店</p>
+          <!-- 第一行 -->
+          <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-2.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">汉口学院 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>湖北省武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
                 </div>
-                <div class="tel">
-                    <p class="name">鲍清</p>
-                    <p class="telnum">151 7232 6007</p>
+              </el-card>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-3.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">武汉大学 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>湖北省武汉市武昌区珞珈山街办事处东湖南路8号武汉大学工程创新与实践中心1104室 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">丁小轩</p>
+                      <p class="telnum">185 0271 1021</p>
+                  </div>
                 </div>
-              </div>
-            </el-card>
-          </el-col>
-          <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
-            <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
-              <img src="../assets/img/cs-contactUs-3.jpg" class="image">
-              <div class="address-desc">
-                <p class="address">武汉大学 Apple 校园体验中心</p>
-                <div class="address-con">
-                  <p>湖北武汉市武昌区珞珈山街道东湖南路8号武汉大学工程创新与实践中心1104室</p>
+              </el-card>
+            </el-col>
+          </el-row>
+
+          <!-- 第二行 -->
+          <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-adr-3.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">湖北汽车工业学院 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>湖北省十堰市张湾区车城西路167号湖北汽车工业学院逸夫图书馆一层 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
                 </div>
-                <div class="tel">
-                    <p class="name">鲍清</p>
-                    <p class="telnum">151 7232 6007</p>
+              </el-card>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-adr-4.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">中南财经政法大学 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>湖北省武汉市东湖高新技术开发区南湖大道182号中南财经政法大学图书馆2楼 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
                 </div>
-              </div>
-            </el-card>
-          </el-col>
-        </el-row>
-      </div>
+              </el-card>
+            </el-col>
+          </el-row>
+
+          <!-- 第三行 -->
+          <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-adr-5.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">烟台大学 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>山东省烟台市莱山区清泉路30号烟台大学北校区天猫校园2层 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
+                </div>
+              </el-card>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-adr-6.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">兰州大学 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>甘肃省兰州市榆中夏官营镇兰州大学榆中校区综合体天猫超市负一楼 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
+                </div>
+              </el-card>
+            </el-col>
+          </el-row>
+
+          <!-- 第四行 -->
+          <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+              <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
+                <img src="../assets/img/cs-contactUs-adr-7.jpg" class="image">
+                <div class="address-desc">
+                  <p class="address">兰州财经大学 Apple 校园体验中心</p>
+                  <div class="address-con">
+                    <p>湖北省武汉市东湖高新技术开发区南湖大道182号中南财经政法大学图书馆2楼 Apple 校园体验中心</p>
+                  </div>
+                  <div class="tel">
+                      <p class="name">许璐</p>
+                      <p class="telnum">136 3607 0936</p>
+                  </div>
+                </div>
+              </el-card>
+            </el-col>
+            <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
+            </el-col>
+          </el-row>
+        </div>
     </div>
   </div>
 </template>
