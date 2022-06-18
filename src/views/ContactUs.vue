@@ -14,9 +14,8 @@
             </div>
         </div>
     </div>
-    <div class="cs-contactUs-part2">
+    <!-- <div class="cs-contactUs-part2" s>
         <div class="container">
-          <!-- 第一行 -->
           <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
             <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
@@ -50,7 +49,6 @@
             </el-col>
           </el-row>
 
-          <!-- 第二行 -->
           <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
             <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
@@ -84,7 +82,6 @@
             </el-col>
           </el-row>
 
-          <!-- 第三行 -->
           <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
             <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
@@ -118,7 +115,6 @@
             </el-col>
           </el-row>
 
-          <!-- 第四行 -->
           <el-row justify="space-between" :gutter="60"  style="margin-bottom:60px">
             <el-col :xs="24" :sm="24" :md="24" :lg="12" :xl="12">
               <el-card :body-style="{ padding: '0px' ,textAlign: 'center'}">
@@ -139,7 +135,7 @@
             </el-col>
           </el-row>
         </div>
-    </div>
+    </div> -->
   </div>
 </template>
 <script>
@@ -163,6 +159,7 @@ export default {
         height: 750px;
         position: relative;
         text-align: center;
+        margin-bottom: 400px;
         img{
           max-height: 100%;
         }
@@ -213,7 +210,13 @@ export default {
                     font-size: 34px;
                     font-weight: 600;
                     color: #000000;
-                    margin-top: 30px;
+                    margin-top: 10px;
+                }
+                p.tel{
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #000000;
+                    margin-top: 10px;
                 }
             }
         }
