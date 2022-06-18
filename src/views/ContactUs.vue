@@ -6,6 +6,7 @@
             <div class="item1">
                 <p class="more">更多业务咨询</p>
                 <p class="url">edu@jschuangsen.cn</p>
+                <p class="tel">服务热线：13681163410</p>
             </div>
             <div class="item2">
                 <p class="more">关注我们</p>
@@ -26,8 +27,8 @@
                     <p>湖北省武汉市江夏区大桥新区街道金樱街文化大道汉口学院北门梧桐雨 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">万茫</p>
+                      <p class="telnum">135 4535 5810</p>
                   </div>
                 </div>
               </el-card>
@@ -41,8 +42,8 @@
                     <p>湖北省武汉市武昌区珞珈山街办事处东湖南路8号武汉大学工程创新与实践中心1104室 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">丁小轩</p>
-                      <p class="telnum">185 0271 1021</p>
+                      <p class="name">刁君梅</p>
+                      <p class="telnum">159 7298 9438</p>
                   </div>
                 </div>
               </el-card>
@@ -60,8 +61,8 @@
                     <p>湖北省十堰市张湾区车城西路167号湖北汽车工业学院逸夫图书馆一层 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">张驰</p>
+                      <p class="telnum">133 1717 9543</p>
                   </div>
                 </div>
               </el-card>
@@ -75,8 +76,8 @@
                     <p>湖北省武汉市东湖高新技术开发区南湖大道182号中南财经政法大学图书馆2楼 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">赵艳</p>
+                      <p class="telnum">136 5720 2629</p>
                   </div>
                 </div>
               </el-card>
@@ -94,8 +95,8 @@
                     <p>山东省烟台市莱山区清泉路30号烟台大学北校区天猫校园2层 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">卢炳旭</p>
+                      <p class="telnum">156 1565 2512</p>
                   </div>
                 </div>
               </el-card>
@@ -109,8 +110,8 @@
                     <p>甘肃省兰州市榆中夏官营镇兰州大学榆中校区综合体天猫超市负一楼 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">王宁</p>
+                      <p class="telnum">151 7029 9007</p>
                   </div>
                 </div>
               </el-card>
@@ -125,11 +126,11 @@
                 <div class="address-desc">
                   <p class="address">兰州财经大学 Apple 校园体验中心</p>
                   <div class="address-con">
-                    <p>湖北省武汉市东湖高新技术开发区南湖大道182号中南财经政法大学图书馆2楼 Apple 校园体验中心</p>
+                    <p>甘肃省兰州市榆中县薇乐大道4号财经大学和平校区天猫超市4楼 Apple 校园体验中心</p>
                   </div>
                   <div class="tel">
-                      <p class="name">许璐</p>
-                      <p class="telnum">136 3607 0936</p>
+                      <p class="name">李雨姿</p>
+                      <p class="telnum">173 1877 8101</p>
                   </div>
                 </div>
               </el-card>

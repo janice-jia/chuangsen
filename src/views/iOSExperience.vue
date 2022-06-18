@@ -56,6 +56,7 @@
     <div class="cs-iOSExp-part2">
       <div class="container">
         <h1>校园体验中心</h1>
+        <!-- 第一行 -->
         <el-row :gutter="60">
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox">
@@ -82,31 +83,77 @@
             </div>
           </el-col>
         </el-row>
-
+        <!-- 第二行 -->
         <el-row :gutter="60">
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox">
               <div class="img">
-                <img src="../assets/img/cs-exper-6.jpg" alt="">
+                <img src="../assets/img/logo/store_hbqcgyxy.jpeg" alt="">
               </div>
               <div class="con">
-                <img src="../assets/img/icon-exper-5.png" alt="">
-                <p class="p1">长春工业大学 Apple 校园体验中心</p>
-                <p class="p2">吉林省长春市延安大街2055号 长春工业大学南湖校区</p>
+                <img src="../assets/img/logo/hbqcgyxy.png" alt="" style="width:240px">
+                <p class="p1">湖北汽车工业学院 Apple 校园体验中心</p>
+                <p class="p2">湖北省十堰市张湾区车城西路167号湖北汽车工业学院逸夫图书馆一层 Apple 校园体验中心</p>
               </div>
             </div>
           </el-col>
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
             <div class="itembox">
               <div class="img">
-                <img src="../assets/img/cs-exper-7.jpg" alt="">
+                <img src="../assets/img/logo/store_zncjzfdx.jpeg" alt="">
               </div>
               <div class="con">
-                <img src="../assets/img/icon-exper-6.png" alt="">
-                <p class="p1">天津科技大学 Apple 校园体验中心</p>
-                <p class="p2">天津经济技术开发区第十三大街 天津科技大学滨海新区9号</p>
+                <img src="../assets/img/logo/zncjzfdx.png" alt="" style="width:240px">
+                <p class="p1">中南财经政法大学 Apple 校园体验中心</p>
+                <p class="p2">湖北省武汉市东湖高新技术开发区南湖大道182号中南财经政法大学图书馆2楼 Apple 校园体验中心 </p>
               </div>
             </div>
+          </el-col>
+        </el-row>
+
+        <!-- 第三行 -->
+        <el-row :gutter="60">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+            <div class="itembox">
+              <div class="img">
+                <img src="../assets/img/logo/store_ytdx.jpeg" alt="">
+              </div>
+              <div class="con">
+                <img src="../assets/img/logo/ytdx.png" alt="" style="width:240px">
+                <p class="p1">烟台大学 Apple 校园体验中心</p>
+                <p class="p2">山东省烟台市莱山区清泉路30号烟台大学北校区天猫校园2层 Apple 校园体验中心</p>
+              </div>
+            </div>
+          </el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+            <div class="itembox">
+              <div class="img">
+                <img src="../assets/img/logo/store_lzdx.jpeg" alt="">
+              </div>
+              <div class="con">
+                <img src="../assets/img/logo/lzdx.png" alt="" style="width:240px">
+                <p class="p1">兰州大学 Apple 校园体验中心</p>
+                <p class="p2">甘肃省兰州市榆中夏官营镇兰州大学榆中校区综合体天猫超市负一楼 Apple 校园体验中心</p>
+              </div>
+            </div>
+          </el-col>
+        </el-row>
+
+        <!-- 第四行 -->
+        <el-row :gutter="60">
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
+            <div class="itembox">
+              <div class="img">
+                <img src="../assets/img/logo/store_lzcjdx.jpeg" alt="">
+              </div>
+              <div class="con">
+                <img src="../assets/img/logo/lzcjdx.png" alt="" style="width:240px">
+                <p class="p1">兰州财经大学 Apple 校园体验中心</p>
+                <p class="p2">甘肃省兰州市榆中县薇乐大道4号财经大学和平校区天猫超市4楼 Apple 校园体验中心</p>
+              </div>
+            </div>
+          </el-col>
+          <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
           </el-col>
         </el-row>
       </div>
@@ -173,6 +220,7 @@ export default {
           font-weight: 400;
           color: #333333;
           line-height: 28px;
+          padding-right: 50px;
        }
      }
    }
