@@ -19,6 +19,7 @@ import iOSExperience from './views/iOSExperience.vue'
 import AboutUs from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
 import ComingSoon from './views/ComingSoon.vue'
+import VocationalEdu from './views/VocationalEdu.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -89,6 +90,12 @@ export default new Router({
             path:'/ContactUs',
             name: 'ContactUs',
             component: ContactUs
+        },
+        // 职业教育
+        {
+            path:'/VocationalEdu',
+            name: 'VocationalEdu',
+            component: VocationalEdu
         },
         // 专业培训
         {
