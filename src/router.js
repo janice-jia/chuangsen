@@ -11,6 +11,7 @@ import BasicEduSuccessCases from './views/BasicEduSuccessCases.vue'
 
 import Protrain from './views/Protrain.vue'
 import iOSCourse from './views/iOSCourse.vue'
+import studentClub from './views/studentClub.vue'
 import iOSClub from './views/iOSClub.vue'
 import iOSExperience from './views/iOSExperience.vue'
 
@@ -20,6 +21,7 @@ import AboutUs from './views/AboutUs.vue'
 import ContactUs from './views/ContactUs.vue'
 import ComingSoon from './views/ComingSoon.vue'
 import VocationalEdu from './views/VocationalEdu.vue'
+import GovernmentProcurement from './views/GovernmentProcurement.vue'
 Vue.use(Router)
 
 export default new Router({
@@ -97,6 +99,12 @@ export default new Router({
             name: 'VocationalEdu',
             component: VocationalEdu
         },
+        // 政府采购
+        {
+            path:'/GovernmentProcurement',
+            name: 'GovernmentProcurement',
+            component: GovernmentProcurement
+        },
         // 专业培训
         {
             path:'/Protrain',
@@ -108,6 +116,12 @@ export default new Router({
             path:'/iOSCourse',
             name: 'iOSCourse',
             component: iOSCourse
+        },
+        //  学生俱乐部
+        {
+            path:'/studentClub',
+            name: 'studentClub',
+            component: studentClub
         },
         // IOS 俱乐部
         {

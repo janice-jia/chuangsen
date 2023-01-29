@@ -125,7 +125,7 @@ p.con{
     .pcMenu{
         font-size: 18px!important;
         width: 100%;
-        font-weight: 400;
+        // font-weight: lighter!important;
         ul.el-menu{
             &:first-child{
                 float: right;
@@ -148,11 +148,16 @@ p.con{
         .el-menu--horizontal > .el-submenu > .el-submenu__title{
             height: 110px;
             line-height: 110px;
-            font-size: 20px;
+            font-size: 18px!important;
             color: #cecdcd;
             padding: 0 15px;
             &:focus{
                 background: none;
+            }
+        }
+        .el-menu--horizontal > .el-menu-item{
+            a{
+                font-family: 'PingFang SC', 'PingFangSC-Regular', 'Avenir', Helvetica, Arial, sans-serif;
             }
         }
         .el-menu--horizontal > .el-submenu > .el-submenu__title:hover{
@@ -167,6 +172,7 @@ p.con{
         .el-menu--horizontal > .el-menu-item.is-active .el-submenu__title{
             border-bottom: 1px solid #FFFFFF;
             color: #FFFFFF;
+            font-weight: bold;
             a{
                 color: #FFFFFF;
             }
