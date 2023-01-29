@@ -37,15 +37,15 @@
         <div class="con2">
             <div class="con2-img">
                 <el-row :gutter="12">
-                    <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+                    <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
                         <img class="img1" src="../assets/img/0123/zyjy_07.png" alt="">
                         <p>能力培养</p>
                     </el-col>
-                    <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+                    <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
                         <img class="img2" src="../assets/img/0123/zyjy_08.png" alt="">
                         <p>能力提升</p>
                     </el-col>
-                    <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+                    <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
                         <img class="img3" src="../assets/img/0123/zyjy_09.png" alt="">
                         <p>能力验证</p>
                     </el-col>
@@ -71,7 +71,7 @@
             <div class="chuangxin">
                 <img class="img3" src="../assets/img/0123/zyjy_11.png" alt="">
             </div>
-            <el-row :gutter="0">
+            <el-row :gutter="20">
                 <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12">
                     <div class="whiteBox">
                         <img class="img3" src="../assets/img/0123/zyjy_13.png" alt="">
@@ -117,10 +117,11 @@ export default {
         text-align: center;
         margin-top: 110px;
         margin-bottom: 55px;
+        font-weight: 400;
     }
     .tit2{
         font-size: 24px;
-        font-weight: lighter;
+        font-weight: 300;
         color: #000000;
         text-align: center;
         line-height: 45px;
@@ -130,20 +131,23 @@ export default {
         margin-top: 95px;
         margin-bottom: 65px;
         text-align: center;
-        font-weight: 500;
+        font-weight: 400;
     }
     .tit4{
         font-size: 40px;
         margin-top: 65px;
         margin-bottom: 65px;
         text-align: center;
-        font-weight: 500;
+        font-weight: 400;
     }
     .con1{
         text-align: center;
         margin: 0 auto 0 auto;
+        img{
+            max-width: 100%;
+        }
         .con1-img{
-            padding-bottom: 20px;
+            padding-bottom: 15px;
             .imgl{
                 margin-right: 20px;
             }
@@ -152,6 +156,9 @@ export default {
     .con2{
         text-align: center;
         margin: 0 auto 0 auto;
+        img{
+            max-width: 100%;
+        }
         .con2-img{
             p{
                 color: #000000;
@@ -165,9 +172,9 @@ export default {
         background: #fff;
         .titp{
             font-size: 40px;
-            margin-bottom: 50px;
+            margin-bottom: 40px;
             text-align: center;
-            font-weight: 500;
+            font-weight: 400;
         }
         .con3-img{
             text-align: center;
@@ -182,7 +189,7 @@ export default {
             margin-top: 75px;
             margin-bottom: 50px;
             text-align: center;
-            font-weight: 500;
+            font-weight: 400;
         }
         .chuangxin{
             border-radius: 20px;
@@ -198,17 +205,30 @@ export default {
             text-align: center;
             background: #fff;
             border-radius: 20px;
-            padding: 40px 0;
-            margin: 0 20px 0 0;
+            padding: 40px;
+            width: 100%;
+            margin-bottom: 20px;
+            img{
+                max-width: 100%;
+            }
         }
     }
     .phone{
         text-align: center;
-        padding: 55px 0 55px 0;
+        padding: 35px 0 55px 0;
     }
     .line{
         height: 1px;
         border-top: 1px solid #d6d6d6;
     }
+}
+
+// 适配
+@media screen and (max-width: 768px) {
+  .phone {
+    img{
+        width: 60%;
+    }
+  }
 }
 </style>

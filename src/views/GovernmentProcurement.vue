@@ -97,7 +97,7 @@ export default {
 .GovernmentProcurement{
     .tit{
         font-size: 58px;
-        font-weight: 600;
+        font-weight: 400;
         color: #000000;
         text-align: center;
         margin-top: 110px;
@@ -105,7 +105,7 @@ export default {
     }
     .tit2{
         font-size: 40px;
-        font-weight: normal;
+        font-weight: 300;
         color: #000000;
         text-align: center;
     }
@@ -138,5 +138,13 @@ export default {
         height: 1px;
         border-top: 1px solid #d6d6d6;
     }
+}
+// 适配
+@media screen and (max-width: 768px) {
+  .phone {
+    img{
+        width: 60%;
+    }
+  }
 }
 </style>

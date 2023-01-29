@@ -20,13 +20,13 @@
       <div class="container">
         <div class="tit">学生俱乐部活动形式如下：</div>
         <el-row :gutter="25">
-          <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+          <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
             <img src="../assets/img/0123/club_02.png" alt="">
           </el-col>
-          <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+          <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
             <img src="../assets/img/0123/club_03.png" alt="">
           </el-col>
-          <el-col :xs="16" :sm="16" :md="8" :lg="8" :xl="8">
+          <el-col :xs="24" :sm="24" :md="8" :lg="8" :xl="8">
             <img src="../assets/img/0123/club_04.png" alt="">
           </el-col>
         </el-row>
@@ -71,6 +71,9 @@ export default {
 .studentClub{
   font-family: '苹方-简';
   .con1{
+    img{
+      max-width: 100%;
+    }
     .tit{
       font-size: 58px;
       color: #000;
@@ -93,10 +96,14 @@ export default {
   .con2{
     background: #fff;
     padding-top: 95px;
+    img{
+      max-width: 100%;
+    }
     .tit{
       text-align: center;
       font-size: 40px;
       margin: 0 0 65px 0;
+      font-weight: 400;
     }
     .tit2{
       margin-top: 90px;
@@ -108,6 +115,9 @@ export default {
   .con3{
     padding-top: 95px;
     padding-bottom: 65px;
+    img{
+      max-width: 100%;
+    }
     .tit{
       text-align: center;
       font-size: 40px;
